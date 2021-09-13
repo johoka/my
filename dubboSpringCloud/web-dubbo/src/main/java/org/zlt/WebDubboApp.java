@@ -1,0 +1,22 @@
+package org.zlt;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.http.server.reactive.ServerHttpResponse;
+import org.springframework.web.servlet.function.ServerResponse;
+
+/**
+ * @author zlt
+ * @date 2020/6/26
+ * <p>
+ * Blog: https://zlt2000.gitee.io
+ * Github: https://github.com/zlt2000
+ */
+@EnableDiscoveryClient
+@SpringBootApplication
+public class WebDubboApp {
+    public static void main(String[] args) {
+        SpringApplication.run(WebDubboApp.class, args);
+    }
+}

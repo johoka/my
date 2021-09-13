@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.example</groupId>
+  <artifactId>my</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>db</module>
+    <module>db2</module>
+    <module>dubboSpringCloud</module>
+    <module>spring</module>
+    <module>spring-cloud-zuul-example-aggregator</module>
+  </modules>
+
+  <name>my</name>
+
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.5.RELEASE</version>
+  </parent>
+  <properties>
+    <java.version>1.8</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <!-- freemarker -->
+    <freemarker.version>2.3.29</freemarker.version>
+    <!-- spring  -->
+    <spring.framework.version>5.1.5.RELEASE</spring.framework.version>
+    <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
+    <spring-boot.version>2.1.5.RELEASE</spring-boot.version>
+    <spring-boot-starter.version>2.1.1.RELEASE</spring-boot-starter.version>
+    <spring-boot-admin-starter.version>2.1.5</spring-boot-admin-starter.version>
+    <!-- aop -->
+    <aspectjweaver.version>1.8.9</aspectjweaver.version>
+    <!-- common -->
+    <commons-lang3.veresion>3.8.1</commons-lang3.veresion>
+    <commons-io.version>2.6</commons-io.version>
+    <commons-collections4.version>4.3</commons-collections4.version>
+    <commons-pool2.version>2.6.1</commons-pool2.version>
+    <commons-fileupload.version>1.4</commons-fileupload.version>
+    <commons-codec.version>1.12</commons-codec.version>
+    <commons-net.version>3.6</commons-net.version>
+    <commons-beanutils.version>1.9.3</commons-beanutils.version>
+    <commons-configuration2.version>2.4</commons-configuration2.version>
+    <guava.version>27.0.1-jre</guava.version>
+    <jmimemagic.version>0.1.5</jmimemagic.version>
+    <erp.framework.version>1.0-SNAPSHOT</erp.framework.version>
+    <!-- aop -->
+    <aspectjweaver.version>1.9.2</aspectjweaver.version>
+    <cglib.version>3.2.10</cglib.version>
+    <asm.version>7.0</asm.version>
+    <!-- database -->
+    <oracle-ojdbc6.version>11.2.0.3.0</oracle-ojdbc6.version>
+    <mysql.version>8.0.11</mysql.version>
+    <druid.version>1.1.16</druid.version>
+    <!-- mybatis -->
+    <mybatis.version>3.5.0</mybatis.version>
+    <mybatis-spring.version>2.0.0</mybatis-spring.version>
+    <pagehelper.version>5.1.8</pagehelper.version>
+    <qfang-base-jdbc.version>1.1.5.21-SNAPSHOT</qfang-base-jdbc.version>
+    <qfang-poi>1.0.6</qfang-poi>
+    <!-- 实现实体和dto之间映射 -->
+    <lombok.version>1.18.6</lombok.version>
+    <!-- dubbo -->
+    <dubbo-spring-boot-starter.version>2.7.4.1</dubbo-spring-boot-starter.version>
+    <zookeeper.version>3.4.5</zookeeper.version>
+    <zkclient.version>0.9</zkclient.version>
+    <!-- cache  相关-->
+    <spymemcached.version>2.12.3</spymemcached.version>
+    <spring-data-redis.version>2.1.5.RELEASE</spring-data-redis.version>
+    <redisson.version>3.10.2</redisson.version>
+    <!-- es  相关-->
+    <spring-data-elasticsearch.version>3.2.0.M4</spring-data-elasticsearch.version>
+    <!--        <elasticsearch.version>7.1.1</elasticsearch.version>-->
+    <!-- qiniu  相关-->
+    <qiniu.version>7.2.18</qiniu.version>
+    <!-- log -->
+    <logback-classic.version>1.2.3</logback-classic.version>
+    <jul-to-slf4j.version>1.7.25</jul-to-slf4j.version>
+    <log4j-over-slf4j.version>1.7.25</log4j-over-slf4j.version>
+    <servlet-api.version>2.5</servlet-api.version>
+    <!-- junit 4.8.1 dependency -->
+    <junit.version>4.12</junit.version>
+    <hamcrest-library.version>1.3</hamcrest-library.version>
+    <!-- swagger-->
+    <swagger.version>2.9.2</swagger.version>
+    <!-- poi 相关 -->
+    <poi.version>3.12</poi.version>
+    <mapstruct.version>1.3.1.Final</mapstruct.version>
+    <!--hibernate.validator-->
+    <hibernate.validator.version>6.1.0.Final</hibernate.validator.version>
+    <!--AES -->
+    <bcprov.version>1.61</bcprov.version>
+    <!-- hessian -->
+    <hessian.version>4.0.60</hessian.version>
+    <UserAgentUtils.version>1.21</UserAgentUtils.version>
+    <fadada-api-sdk.version>2.4.0</fadada-api-sdk.version>
+    <apache-mime4j.version>0.8.3</apache-mime4j.version>
+    <curator.verson>4.2.0</curator.verson>
+    <zxing_version>3.4.0</zxing_version>
+    <itext7-core_version>7.1.7</itext7-core_version>
+    <itext7-html2pdf_version>2.1.4</itext7-html2pdf_version>
+    <okhttp_version>3.10.0</okhttp_version>
+    <open-api-sdk_version>1.0.0</open-api-sdk_version>
+    <thumbnailator_version>[0.4, 0.5)</thumbnailator_version>
+    <mybatis-typehandlers-jsr310.version>1.0.2</mybatis-typehandlers-jsr310.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- spring cloud -->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        <version>${spring-boot-starter.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+        <version>${spring-boot-starter.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        <version>${spring-boot-starter.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+        <version>${spring-boot-starter.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>de.codecentric</groupId>
+        <artifactId>spring-boot-admin-starter-server</artifactId>
+        <version>${spring-boot-admin-starter.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>de.codecentric</groupId>
+        <artifactId>spring-boot-admin-starter-client</artifactId>
+        <version>${spring-boot-admin-starter.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-web</artifactId>
+        <version>${spring.framework.version}</version>
+      </dependency>
+      <!-- es -->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        <version>${spring-boot.version}</version>
+      </dependency>
+      <!-- common -->
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>${commons-lang3.veresion}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>${commons-io.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-collections4</artifactId>
+        <version>${commons-collections4.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.bouncycastle</groupId>
+        <artifactId>bcprov-jdk15on</artifactId>
+        <version>${bcprov.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-pool2</artifactId>
+        <version>${commons-pool2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-fileupload</groupId>
+        <artifactId>commons-fileupload</artifactId>
+        <version>${commons-fileupload.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-codec</groupId>
+        <artifactId>commons-codec</artifactId>
+        <version>${commons-codec.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-net</groupId>
+        <artifactId>commons-net</artifactId>
+        <version>${commons-net.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-beanutils</groupId>
+        <artifactId>commons-beanutils</artifactId>
+        <version>${commons-beanutils.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-configuration2</artifactId>
+        <version>${commons-configuration2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>${guava.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.sf.jmimemagic</groupId>
+        <artifactId>jmimemagic</artifactId>
+        <version>${jmimemagic.version}</version>
+      </dependency>
+
+      <!--freemarker -->
+      <dependency>
+        <groupId>org.freemarker</groupId>
+        <artifactId>freemarker</artifactId>
+        <version>${freemarker.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.qfang</groupId>
+        <artifactId>qfang-poi</artifactId>
+        <version>${qfang-poi}</version>
+      </dependency>
+
+      <!-- spring framework -->
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>${spring.framework.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context-support</artifactId>
+        <version>${spring.framework.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+        <version>${spring.framework.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-jdbc</artifactId>
+        <version>${spring.framework.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-aop</artifactId>
+        <version>${spring.framework.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>${spring.framework.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>${spring.framework.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-orm</artifactId>
+        <version>${spring.framework.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-jms</artifactId>
+        <version>${spring.framework.version}</version>
+      </dependency>
+
+      <!-- kafka -->
+      <dependency>
+        <groupId>org.springframework.kafka</groupId>
+        <artifactId>spring-kafka</artifactId>
+        <version>2.2.6.RELEASE</version>
+      </dependency>
+
+      <!-- aop -->
+      <dependency>
+        <groupId>org.aspectj</groupId>
+        <artifactId>aspectjweaver</artifactId>
+        <version>${aspectjweaver.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>cglib</groupId>
+        <artifactId>cglib</artifactId>
+        <version>${cglib.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.ow2.asm</groupId>
+        <artifactId>asm</artifactId>
+        <version>${asm.version}</version>
+      </dependency>
+      <!-- database -->
+      <dependency>
+        <groupId>cn.guoyukun.jdbc</groupId>
+        <artifactId>oracle-ojdbc6</artifactId>
+        <version>${oracle-ojdbc6.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>${mysql.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid</artifactId>
+        <version>${druid.version}</version>
+      </dependency>
+      <!-- mybatis -->
+      <dependency>
+        <groupId>org.mybatis</groupId>
+        <artifactId>mybatis</artifactId>
+        <version>${mybatis.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mybatis</groupId>
+        <artifactId>mybatis-spring</artifactId>
+        <version>${mybatis-spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mybatis</groupId>
+        <artifactId>mybatis-typehandlers-jsr310</artifactId>
+        <version>${mybatis-typehandlers-jsr310.version}</version>
+      </dependency>
+
+      <!-- mybatis 自动分页插件 -->
+      <dependency>
+        <groupId>com.github.pagehelper</groupId>
+        <artifactId>pagehelper</artifactId>
+        <version>${pagehelper.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.qfang</groupId>
+        <artifactId>qfang-base-jdbc</artifactId>
+        <version>${qfang-base-jdbc.version}</version>
+        <exclusions>
+          <exclusion>
+            <artifactId>logback-classic</artifactId>
+            <groupId>ch.qos.logback</groupId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+
+      <!-- 实现实体和dto之间映射 -->
+      <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${lombok.version}</version>
+        <scope>provided</scope>
+      </dependency>
+
+      <!-- json lib -->
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson.version}</version>
+      </dependency>
+
+
+      <!-- dubbo -->
+      <dependency>
+        <groupId>org.apache.dubbo</groupId>
+        <artifactId>dubbo-spring-boot-starter</artifactId>
+        <version>${dubbo-spring-boot-starter.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.curator</groupId>
+        <artifactId>curator-recipes</artifactId>
+        <version>${curator.verson}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.zookeeper</groupId>
+        <artifactId>zookeeper</artifactId>
+        <version>${zookeeper.version}</version>
+      </dependency>
+      <!-- cache  相关-->
+      <dependency>
+        <groupId>net.spy</groupId>
+        <artifactId>spymemcached</artifactId>
+        <version>${spymemcached.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-redis</artifactId>
+        <version>${spring-data-redis.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <dependency>
+        <groupId>org.redisson</groupId>
+        <artifactId>redisson</artifactId>
+        <version>${redisson.version}</version>
+        <optional>true</optional>
+      </dependency>
+      <!-- es  相关-->
+      <!--            <dependency>-->
+      <!--                <groupId>org.springframework.data</groupId>-->
+      <!--                <artifactId>spring-data-elasticsearch</artifactId>-->
+      <!--                <version>${spring-data-elasticsearch.version}</version>-->
+      <!--            </dependency>-->
+      <!--            <dependency>-->
+      <!--                <groupId>org.elasticsearch.client</groupId>-->
+      <!--                <artifactId>transport</artifactId>-->
+      <!--                <version>${elasticsearch.version}</version>-->
+      <!--            </dependency>-->
+
+      <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>elasticsearch-rest-high-level-client</artifactId>
+        <version>6.4.3</version>
+      </dependency>
+      <!--七牛云-->
+      <dependency>
+        <groupId>com.qiniu</groupId>
+        <artifactId>qiniu-java-sdk</artifactId>
+        <version>${qiniu.version}</version>
+      </dependency>
+      <!-- log -->
+      <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>${logback-classic.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>jul-to-slf4j</artifactId>
+        <version>${jul-to-slf4j.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>log4j-over-slf4j</artifactId>
+        <version>${log4j-over-slf4j.version}</version>
+      </dependency>
+      <!--dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+          <version>${servlet-api.version}</version>
+          <scope>provided</scope>
+      </dependency-->
+      <!-- poi excel导入导出相关 -->
+      <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>${poi.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-excelant</artifactId>
+        <version>${poi.version}</version>
+      </dependency>
+
+      <!-- junit 4.8.1 dependency -->
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-test</artifactId>
+        <version>${spring.framework.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.hamcrest</groupId>
+        <artifactId>hamcrest-library</artifactId>
+        <version>${hamcrest-library.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <!-- swagger2 -->
+      <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger2</artifactId>
+        <version>${swagger.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger-ui</artifactId>
+        <version>${swagger.version}</version>
+      </dependency>
+
+      <!-- 对象映射-->
+      <dependency>
+        <groupId>org.mapstruct</groupId>
+        <artifactId>mapstruct</artifactId>
+        <version>${mapstruct.version}</version>
+      </dependency>
+
+
+      <dependency>
+        <groupId>org.hibernate.validator</groupId>
+        <artifactId>hibernate-validator</artifactId>
+        <version>${hibernate.validator.version}</version>
+      </dependency>
+
+      <!-- userAgent解析 -->
+      <dependency>
+        <groupId>eu.bitwalker</groupId>
+        <artifactId>UserAgentUtils</artifactId>
+        <version>${UserAgentUtils.version}</version>
+      </dependency>
+
+      <!--法大大电子签章 -->
+      <dependency>
+        <groupId>org.apache.james</groupId>
+        <artifactId>apache-mime4j</artifactId>
+        <version>${apache-mime4j.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>fadada</groupId>
+        <artifactId>fadada-api-sdk</artifactId>
+        <version>${fadada-api-sdk.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.itextpdf</groupId>
+        <artifactId>itext7-core</artifactId>
+        <version>${itext7-core_version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>com.itextpdf</groupId>
+        <artifactId>html2pdf</artifactId>
+        <version>${itext7-html2pdf_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.chinaums.open</groupId>
+        <artifactId>open-api-sdk</artifactId>
+        <version>${open-api-sdk_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.squareup.okhttp3</groupId>
+        <artifactId>okhttp</artifactId>
+        <version>${okhttp_version}</version>
+      </dependency>
+
+      <!--图片处理-->
+      <dependency>
+        <groupId>net.coobird</groupId>
+        <artifactId>thumbnailator</artifactId>
+        <version>${thumbnailator_version}</version>
+      </dependency>
+
+      <!--qr code-->
+      <dependency>
+        <groupId>com.google.zxing</groupId>
+        <artifactId>core</artifactId>
+        <version>${zxing_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.zxing</groupId>
+        <artifactId>javase</artifactId>
+        <version>${zxing_version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.kafka</groupId>
+        <artifactId>kafka_2.11</artifactId>
+        <version>0.8.2.1</version>
+      </dependency>
+
+    </dependencies>
+
+  </dependencyManagement>
+</project>

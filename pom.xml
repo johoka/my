@@ -15,6 +15,7 @@
     <module>dubboSpringCloud</module>
     <module>spring</module>
     <module>spring-cloud-zuul-example-aggregator</module>
+      <module>algorithm</module>
   </modules>
 
   <name>my</name>

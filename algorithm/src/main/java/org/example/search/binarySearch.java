@@ -1,5 +1,8 @@
 package org.example.search;
 
+/**
+ * 参考地址：https://labuladong.gitbook.io/algo/
+ */
 public class binarySearch {
 
     public static void main(String[] args) {

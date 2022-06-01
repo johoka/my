@@ -13,13 +13,10 @@ import javax.ws.rs.PathParam;
  * Blog: https://zlt2000.gitee.io
  * Github: https://github.com/zlt2000
  */
-@Service(protocol = "rest")
-@Path("/")
+@Service(protocol = "rest",version = "xbh")
 public class RestServiceImpl implements RestService {
     @Override
-    @Path("test/{p}")
-    @GET
-    public String test(@PathParam("p") String param) {
-        return "rest service: " + param;
+    public String test() {
+        return "rest service: ";
     }
 }

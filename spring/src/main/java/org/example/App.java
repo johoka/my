@@ -21,16 +21,16 @@ import org.springframework.core.env.ConfigurableEnvironment;
 public class App 
 {
     public static void main( String[] args ) throws InterruptedException {
-        ConfigurableApplicationContext run = SpringApplication.run(App.class, args);
-        Agent agent = run.getBean(Agent.class);
-        PlaceholderBean placeholderBean = run.getBean(PlaceholderBean.class);
-        System.out.println(placeholderBean);
-        System.out.println(placeholderBean.getValue());
-        ConfigurableEnvironment environment = run.getEnvironment();
-        System.out.println(environment.getProperty("test"));
-
-        Object bean4FactoryBean = run.getBean("&bean4FactoryBean");
-        System.out.println(bean4FactoryBean);
+//        ConfigurableApplicationContext run = SpringApplication.run(App.class, args);
+//        Agent agent = run.getBean(Agent.class);
+//        PlaceholderBean placeholderBean = run.getBean(PlaceholderBean.class);
+//        System.out.println(placeholderBean);
+//        System.out.println(placeholderBean.getValue());
+//        ConfigurableEnvironment environment = run.getEnvironment();
+//        System.out.println(environment.getProperty("test"));
+//
+//        Object bean4FactoryBean = run.getBean("&bean4FactoryBean");
+//        System.out.println(bean4FactoryBean);
 
 //        new Thread(()->{
 //            while (true){
@@ -61,6 +61,6 @@ public class App
 //        System.out.println(bServiceImpl);
 //        bServiceImpl.test();
 
-        App.class.wait();
+        SpringApplication.run(App.class, args);
     }
 }

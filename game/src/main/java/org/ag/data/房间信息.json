@@ -1,0 +1,3169 @@
+{
+	"platforms": {
+		"firstNode": {
+			"element": {
+				"rooms": {
+					"firstNode": {
+						"element": {
+							"category": 0,
+							"typeTag": 0,
+							"isShowZB": true,
+							"timeout": 0,
+							"maxTime": 0,
+							"lineIndex": -1,
+							"lineFlag": 0,
+							"id": "N006",
+							"type": "BAC",
+							"name": "N06",
+							"flag": 0,
+							"record": "rec_kkw3",
+							"greenscreen": false,
+							"video": {
+								"id": "N006",
+								"gms": "3013",
+								"limitTypes": "A,C,D,E,V",
+								"quickMode": 0,
+								"quality": ["1", "2"],
+								"useaga": "0",
+								"addr": {
+									"firstNode": null,
+									"lastNode": null,
+									"nElements": 0
+								},
+								"maddr": {
+									"firstNode": {
+										"element": "rtmp://eu.guijicha.cn/nw01/8-11",
+										"next": {
+											"element": "https://autheu.guijicha.cn/nw01/8-1",
+											"next": {
+												"element": "https://eu.1sb.club:60443/nw01/8-1",
+												"next": {
+													"element": "https://autheu.guijicha.cn/nw01/8-1",
+													"next": null
+												}
+											}
+										}
+									},
+									"lastNode": {
+										"element": "https://autheu.guijicha.cn/nw01/8-1",
+										"next": null
+									},
+									"nElements": 4
+								}
+							},
+							"pId": "13",
+							"pFlag": 0
+						},
+						"next": {
+							"element": {
+								"category": 0,
+								"typeTag": 0,
+								"isShowZB": true,
+								"timeout": 0,
+								"maxTime": 0,
+								"lineIndex": -1,
+								"lineFlag": 0,
+								"id": "N007",
+								"type": "BAC",
+								"name": "N07",
+								"flag": 0,
+								"record": "rec_kkw3",
+								"greenscreen": false,
+								"video": {
+									"id": "N007",
+									"gms": "3013",
+									"limitTypes": "A,C,D,E,V",
+									"quickMode": 0,
+									"quality": ["1", "2"],
+									"useaga": "0",
+									"addr": {
+										"firstNode": null,
+										"lastNode": null,
+										"nElements": 0
+									},
+									"maddr": {
+										"firstNode": {
+											"element": "rtmp://eu.guijicha.cn/nw02/8-21",
+											"next": {
+												"element": "https://autheu.guijicha.cn/nw02/8-2",
+												"next": {
+													"element": "https://eu.1sb.club:60443/nw02/8-2",
+													"next": {
+														"element": "https://autheu.guijicha.cn/nw02/8-2",
+														"next": null
+													}
+												}
+											}
+										},
+										"lastNode": {
+											"element": "https://autheu.guijicha.cn/nw02/8-2",
+											"next": null
+										},
+										"nElements": 4
+									}
+								},
+								"pId": "13",
+								"pFlag": 0
+							},
+							"next": {
+								"element": {
+									"category": 0,
+									"typeTag": 0,
+									"isShowZB": true,
+									"timeout": 0,
+									"maxTime": 0,
+									"lineIndex": -1,
+									"lineFlag": 0,
+									"id": "N008",
+									"type": "BAC",
+									"name": "N08",
+									"flag": 0,
+									"record": "rec_kkw3",
+									"greenscreen": false,
+									"video": {
+										"id": "N008",
+										"gms": "3013",
+										"limitTypes": "A,C,D,E,V",
+										"quickMode": 0,
+										"quality": ["1", "2"],
+										"useaga": "0",
+										"addr": {
+											"firstNode": null,
+											"lastNode": null,
+											"nElements": 0
+										},
+										"maddr": {
+											"firstNode": {
+												"element": "rtmp://eu.guijicha.cn/nw03/8-31",
+												"next": {
+													"element": "https://autheu.guijicha.cn/nw03/8-3",
+													"next": {
+														"element": "https://eu.1sb.club:60443/nw03/8-3",
+														"next": {
+															"element": "https://autheu.guijicha.cn/nw03/8-3",
+															"next": null
+														}
+													}
+												}
+											},
+											"lastNode": {
+												"element": "https://autheu.guijicha.cn/nw03/8-3",
+												"next": null
+											},
+											"nElements": 4
+										}
+									},
+									"pId": "13",
+									"pFlag": 0
+								},
+								"next": {
+									"element": {
+										"category": 0,
+										"typeTag": 0,
+										"isShowZB": true,
+										"timeout": 0,
+										"maxTime": 0,
+										"lineIndex": -1,
+										"lineFlag": 0,
+										"id": "N009",
+										"type": "BAC",
+										"name": "N09",
+										"flag": 0,
+										"record": "rec_kkw3",
+										"greenscreen": false,
+										"video": {
+											"id": "N009",
+											"gms": "3013",
+											"limitTypes": "A,C,D,E,V",
+											"quickMode": 0,
+											"quality": ["1", "2"],
+											"useaga": "0",
+											"addr": {
+												"firstNode": null,
+												"lastNode": null,
+												"nElements": 0
+											},
+											"maddr": {
+												"firstNode": {
+													"element": "rtmp://eu.guijicha.cn/nw05/8-51",
+													"next": {
+														"element": "https://autheu.guijicha.cn/nw05/8-5",
+														"next": {
+															"element": "https://eu.1sb.club:60443/nw05/8-5",
+															"next": {
+																"element": "https://autheu.guijicha.cn/nw05/8-5",
+																"next": null
+															}
+														}
+													}
+												},
+												"lastNode": {
+													"element": "https://autheu.guijicha.cn/nw05/8-5",
+													"next": null
+												},
+												"nElements": 4
+											}
+										},
+										"pId": "13",
+										"pFlag": 0
+									},
+									"next": {
+										"element": {
+											"category": 0,
+											"typeTag": 0,
+											"isShowZB": true,
+											"timeout": 0,
+											"maxTime": 0,
+											"lineIndex": -1,
+											"lineFlag": 0,
+											"id": "N010",
+											"type": "BAC",
+											"name": "N10",
+											"flag": 0,
+											"record": "rec_kkw3",
+											"greenscreen": false,
+											"video": {
+												"id": "N010",
+												"gms": "3013",
+												"limitTypes": "A,C,D,E,V",
+												"quickMode": 1,
+												"quality": ["1", "2"],
+												"useaga": "0",
+												"addr": {
+													"firstNode": null,
+													"lastNode": null,
+													"nElements": 0
+												},
+												"maddr": {
+													"firstNode": {
+														"element": "rtmp://eu.guijicha.cn/nw06/8-61",
+														"next": {
+															"element": "https://autheu.guijicha.cn/nw06/8-6",
+															"next": {
+																"element": "https://eu.1sb.club:60443/nw06/8-6",
+																"next": {
+																	"element": "https://autheu.guijicha.cn/nw06/8-6",
+																	"next": null
+																}
+															}
+														}
+													},
+													"lastNode": {
+														"element": "https://autheu.guijicha.cn/nw06/8-6",
+														"next": null
+													},
+													"nElements": 4
+												}
+											},
+											"pId": "13",
+											"pFlag": 0
+										},
+										"next": {
+											"element": {
+												"category": 0,
+												"typeTag": 0,
+												"isShowZB": true,
+												"timeout": 0,
+												"maxTime": 0,
+												"lineIndex": -1,
+												"lineFlag": 0,
+												"id": "N011",
+												"type": "BAC",
+												"name": "N11",
+												"flag": 0,
+												"record": "rec_kkw3",
+												"greenscreen": false,
+												"video": {
+													"id": "N011",
+													"gms": "3013",
+													"limitTypes": "A,C,D,E,V",
+													"quickMode": 1,
+													"quality": ["1", "2"],
+													"useaga": "0",
+													"addr": {
+														"firstNode": null,
+														"lastNode": null,
+														"nElements": 0
+													},
+													"maddr": {
+														"firstNode": {
+															"element": "rtmp://eu.guijicha.cn/nw07/8-71",
+															"next": {
+																"element": "https://autheu.guijicha.cn/nw07/8-7",
+																"next": {
+																	"element": "https://eu.1sb.club:60443/nw07/8-7",
+																	"next": {
+																		"element": "https://autheu.guijicha.cn/nw07/8-7",
+																		"next": null
+																	}
+																}
+															}
+														},
+														"lastNode": {
+															"element": "https://autheu.guijicha.cn/nw07/8-7",
+															"next": null
+														},
+														"nElements": 4
+													}
+												},
+												"pId": "13",
+												"pFlag": 0
+											},
+											"next": {
+												"element": {
+													"category": 0,
+													"typeTag": 0,
+													"isShowZB": true,
+													"timeout": 0,
+													"maxTime": 0,
+													"lineIndex": -1,
+													"lineFlag": 0,
+													"id": "N012",
+													"type": "BAC",
+													"name": "N12",
+													"flag": 0,
+													"record": "rec_kkw3",
+													"greenscreen": false,
+													"video": {
+														"id": "N012",
+														"gms": "3013",
+														"limitTypes": "A,C,D,E,V",
+														"quickMode": 1,
+														"quality": ["1", "2"],
+														"useaga": "0",
+														"addr": {
+															"firstNode": null,
+															"lastNode": null,
+															"nElements": 0
+														},
+														"maddr": {
+															"firstNode": {
+																"element": "rtmp://eu.guijicha.cn/nw20/8-201",
+																"next": {
+																	"element": "https://autheu.guijicha.cn/nw20/8-20",
+																	"next": {
+																		"element": "https://eu.1sb.club:60443/nw20/8-20",
+																		"next": {
+																			"element": "https://autheu.guijicha.cn/nw20/8-20",
+																			"next": null
+																		}
+																	}
+																}
+															},
+															"lastNode": {
+																"element": "https://autheu.guijicha.cn/nw20/8-20",
+																"next": null
+															},
+															"nElements": 4
+														}
+													},
+													"pId": "13",
+													"pFlag": 0
+												},
+												"next": {
+													"element": {
+														"category": 0,
+														"typeTag": 0,
+														"isShowZB": true,
+														"timeout": 0,
+														"maxTime": 0,
+														"lineIndex": -1,
+														"lineFlag": 0,
+														"id": "N013",
+														"type": "BAC",
+														"name": "N13",
+														"flag": 0,
+														"record": "rec_kkw3",
+														"greenscreen": false,
+														"video": {
+															"id": "N013",
+															"gms": "3013",
+															"limitTypes": "A,C,D,E,V",
+															"quickMode": 1,
+															"quality": ["1", "2"],
+															"useaga": "0",
+															"addr": {
+																"firstNode": null,
+																"lastNode": null,
+																"nElements": 0
+															},
+															"maddr": {
+																"firstNode": {
+																	"element": "rtmp://eu.guijicha.cn/nw21/8-211",
+																	"next": {
+																		"element": "https://autheu.guijicha.cn/nw21/8-21",
+																		"next": {
+																			"element": "https://eu.1sb.club:60443/nw21/8-21",
+																			"next": {
+																				"element": "https://autheu.guijicha.cn/nw21/8-21",
+																				"next": null
+																			}
+																		}
+																	}
+																},
+																"lastNode": {
+																	"element": "https://autheu.guijicha.cn/nw21/8-21",
+																	"next": null
+																},
+																"nElements": 4
+															}
+														},
+														"pId": "13",
+														"pFlag": 0
+													},
+													"next": {
+														"element": {
+															"category": 0,
+															"typeTag": 0,
+															"isShowZB": true,
+															"timeout": 0,
+															"maxTime": 0,
+															"lineIndex": -1,
+															"lineFlag": 0,
+															"id": "N015",
+															"type": "BAC",
+															"name": "N15",
+															"flag": 0,
+															"record": "rec_kkw3",
+															"greenscreen": false,
+															"video": {
+																"id": "N015",
+																"gms": "3013",
+																"limitTypes": "A,C,D,E,V",
+																"quickMode": 0,
+																"quality": ["1", "2"],
+																"useaga": "0",
+																"addr": {
+																	"firstNode": null,
+																	"lastNode": null,
+																	"nElements": 0
+																},
+																"maddr": {
+																	"firstNode": {
+																		"element": "rtmp://eu.guijicha.cn/nw22/8-221",
+																		"next": {
+																			"element": "https://autheu.guijicha.cn/nw22/8-22",
+																			"next": {
+																				"element": "https://eu.1sb.club:60443/nw22/8-22",
+																				"next": {
+																					"element": "https://autheu.guijicha.cn/nw22/8-22",
+																					"next": null
+																				}
+																			}
+																		}
+																	},
+																	"lastNode": {
+																		"element": "https://autheu.guijicha.cn/nw22/8-22",
+																		"next": null
+																	},
+																	"nElements": 4
+																}
+															},
+															"pId": "13",
+															"pFlag": 0
+														},
+														"next": {
+															"element": {
+																"category": 0,
+																"typeTag": 0,
+																"isShowZB": true,
+																"timeout": 0,
+																"maxTime": 0,
+																"lineIndex": -1,
+																"lineFlag": 0,
+																"id": "N016",
+																"type": "BAC",
+																"name": "N16",
+																"flag": 0,
+																"record": "rec_kkw3",
+																"greenscreen": false,
+																"video": {
+																	"id": "N016",
+																	"gms": "3013",
+																	"limitTypes": "A,C,D,E,V",
+																	"quickMode": 0,
+																	"quality": ["1", "2"],
+																	"useaga": "0",
+																	"addr": {
+																		"firstNode": null,
+																		"lastNode": null,
+																		"nElements": 0
+																	},
+																	"maddr": {
+																		"firstNode": {
+																			"element": "rtmp://eu.guijicha.cn/nw23/8-231",
+																			"next": {
+																				"element": "https://autheu.guijicha.cn/nw23/8-23",
+																				"next": {
+																					"element": "https://eu.1sb.club:60443/nw23/8-23",
+																					"next": {
+																						"element": "https://autheu.guijicha.cn/nw23/8-23",
+																						"next": null
+																					}
+																				}
+																			}
+																		},
+																		"lastNode": {
+																			"element": "https://autheu.guijicha.cn/nw23/8-23",
+																			"next": null
+																		},
+																		"nElements": 4
+																	}
+																},
+																"pId": "13",
+																"pFlag": 0
+															},
+															"next": {
+																"element": {
+																	"category": 0,
+																	"typeTag": 0,
+																	"isShowZB": true,
+																	"timeout": 0,
+																	"maxTime": 0,
+																	"lineIndex": -1,
+																	"lineFlag": 0,
+																	"id": "N017",
+																	"type": "BAC",
+																	"name": "N17",
+																	"flag": 0,
+																	"record": "rec_kkw3",
+																	"greenscreen": false,
+																	"video": {
+																		"id": "N017",
+																		"gms": "3013",
+																		"limitTypes": "A,C,D,E,V",
+																		"quickMode": 0,
+																		"quality": ["1", "2"],
+																		"useaga": "0",
+																		"addr": {
+																			"firstNode": null,
+																			"lastNode": null,
+																			"nElements": 0
+																		},
+																		"maddr": {
+																			"firstNode": {
+																				"element": "rtmp://eu.guijicha.cn/nw25/8-251",
+																				"next": {
+																					"element": "https://autheu.guijicha.cn/nw25/8-25",
+																					"next": {
+																						"element": "https://eu.1sb.club:60443/nw25/8-25",
+																						"next": {
+																							"element": "https://autheu.guijicha.cn/nw25/8-25",
+																							"next": null
+																						}
+																					}
+																				}
+																			},
+																			"lastNode": {
+																				"element": "https://autheu.guijicha.cn/nw25/8-25",
+																				"next": null
+																			},
+																			"nElements": 4
+																		}
+																	},
+																	"pId": "13",
+																	"pFlag": 0
+																},
+																"next": {
+																	"element": {
+																		"category": 0,
+																		"typeTag": 0,
+																		"isShowZB": true,
+																		"timeout": 0,
+																		"maxTime": 0,
+																		"lineIndex": -1,
+																		"lineFlag": 0,
+																		"id": "N018",
+																		"type": "BAC",
+																		"name": "N18",
+																		"flag": 0,
+																		"record": "rec_kkw3",
+																		"greenscreen": false,
+																		"video": {
+																			"id": "N018",
+																			"gms": "3013",
+																			"limitTypes": "A,C,D,E,V",
+																			"quickMode": 0,
+																			"quality": ["1", "2"],
+																			"useaga": "0",
+																			"addr": {
+																				"firstNode": null,
+																				"lastNode": null,
+																				"nElements": 0
+																			},
+																			"maddr": {
+																				"firstNode": {
+																					"element": "rtmp://eu.guijicha.cn/nw26/8-261",
+																					"next": {
+																						"element": "https://autheu.guijicha.cn/nw26/8-26",
+																						"next": {
+																							"element": "https://eu.1sb.club:60443/nw26/8-26",
+																							"next": {
+																								"element": "https://autheu.guijicha.cn/nw26/8-26",
+																								"next": null
+																							}
+																						}
+																					}
+																				},
+																				"lastNode": {
+																					"element": "https://autheu.guijicha.cn/nw26/8-26",
+																					"next": null
+																				},
+																				"nElements": 4
+																			}
+																		},
+																		"pId": "13",
+																		"pFlag": 0
+																	},
+																	"next": {
+																		"element": {
+																			"category": 0,
+																			"typeTag": 0,
+																			"isShowZB": true,
+																			"timeout": 0,
+																			"maxTime": 0,
+																			"lineIndex": -1,
+																			"lineFlag": 0,
+																			"id": "N019",
+																			"type": "BAC",
+																			"name": "N19",
+																			"flag": 0,
+																			"record": "rec_kkw3",
+																			"greenscreen": false,
+																			"video": {
+																				"id": "N019",
+																				"gms": "3013",
+																				"limitTypes": "A,C,D,E,V",
+																				"quickMode": 0,
+																				"quality": ["1", "2"],
+																				"useaga": "0",
+																				"addr": {
+																					"firstNode": null,
+																					"lastNode": null,
+																					"nElements": 0
+																				},
+																				"maddr": {
+																					"firstNode": {
+																						"element": "rtmp://eu.guijicha.cn/nw27/8-271",
+																						"next": {
+																							"element": "https://autheu.guijicha.cn/nw27/8-27",
+																							"next": {
+																								"element": "https://eu.1sb.club:60443/nw27/8-27",
+																								"next": {
+																									"element": "https://autheu.guijicha.cn/nw27/8-27",
+																									"next": null
+																								}
+																							}
+																						}
+																					},
+																					"lastNode": {
+																						"element": "https://autheu.guijicha.cn/nw27/8-27",
+																						"next": null
+																					},
+																					"nElements": 4
+																				}
+																			},
+																			"pId": "13",
+																			"pFlag": 0
+																		},
+																		"next": {
+																			"element": {
+																				"category": 0,
+																				"typeTag": 0,
+																				"isShowZB": true,
+																				"timeout": 0,
+																				"maxTime": 0,
+																				"lineIndex": -1,
+																				"lineFlag": 0,
+																				"id": "N020",
+																				"type": "DT",
+																				"name": "N20",
+																				"flag": 0,
+																				"record": "rec_kkw3",
+																				"greenscreen": false,
+																				"video": {
+																					"id": "N020",
+																					"gms": "3013",
+																					"limitTypes": "A,C,D,E",
+																					"quickMode": 0,
+																					"quality": ["1", "2"],
+																					"useaga": "0",
+																					"addr": {
+																						"firstNode": null,
+																						"lastNode": null,
+																						"nElements": 0
+																					},
+																					"maddr": {
+																						"firstNode": {
+																							"element": "rtmp://eu.guijicha.cn/nw09/8-91",
+																							"next": {
+																								"element": "https://autheu.guijicha.cn/nw09/8-9",
+																								"next": {
+																									"element": "https://eu.1sb.club:60443/nw09/8-9",
+																									"next": {
+																										"element": "https://autheu.guijicha.cn/nw09/8-9",
+																										"next": null
+																									}
+																								}
+																							}
+																						},
+																						"lastNode": {
+																							"element": "https://autheu.guijicha.cn/nw09/8-9",
+																							"next": null
+																						},
+																						"nElements": 4
+																					}
+																				},
+																				"pId": "13",
+																				"pFlag": 0
+																			},
+																			"next": {
+																				"element": {
+																					"category": 0,
+																					"typeTag": 0,
+																					"isShowZB": true,
+																					"timeout": 0,
+																					"maxTime": 0,
+																					"lineIndex": -1,
+																					"lineFlag": 0,
+																					"id": "N021",
+																					"type": "ZJH",
+																					"name": "N21",
+																					"flag": 0,
+																					"record": "rec_kkw3",
+																					"greenscreen": false,
+																					"video": {
+																						"id": "N021",
+																						"gms": "3013",
+																						"limitTypes": "A",
+																						"quickMode": 0,
+																						"quality": ["1", "2"],
+																						"useaga": "0",
+																						"addr": {
+																							"firstNode": null,
+																							"lastNode": null,
+																							"nElements": 0
+																						},
+																						"maddr": {
+																							"firstNode": {
+																								"element": "rtmp://eu.guijicha.cn/nw10/8-101",
+																								"next": {
+																									"element": "https://autheu.guijicha.cn/nw10/8-10",
+																									"next": {
+																										"element": "https://eu.1sb.club:60443/nw10/8-10",
+																										"next": {
+																											"element": "https://autheu.guijicha.cn/nw10/8-10",
+																											"next": null
+																										}
+																									}
+																								}
+																							},
+																							"lastNode": {
+																								"element": "https://autheu.guijicha.cn/nw10/8-10",
+																								"next": null
+																							},
+																							"nElements": 4
+																						}
+																					},
+																					"pId": "13",
+																					"pFlag": 0
+																				},
+																				"next": {
+																					"element": {
+																						"category": 0,
+																						"typeTag": 0,
+																						"isShowZB": true,
+																						"timeout": 0,
+																						"maxTime": 0,
+																						"lineIndex": -1,
+																						"lineFlag": 0,
+																						"id": "N022",
+																						"type": "NN",
+																						"name": "N22",
+																						"flag": 0,
+																						"record": "rec_kkw3",
+																						"greenscreen": false,
+																						"video": {
+																							"id": "N022",
+																							"gms": "3013",
+																							"limitTypes": "A",
+																							"quickMode": 0,
+																							"quality": ["1", "2"],
+																							"useaga": "0",
+																							"addr": {
+																								"firstNode": null,
+																								"lastNode": null,
+																								"nElements": 0
+																							},
+																							"maddr": {
+																								"firstNode": {
+																									"element": "rtmp://eu.guijicha.cn/nw12/8-121",
+																									"next": {
+																										"element": "https://autheu.guijicha.cn/nw12/8-12",
+																										"next": {
+																											"element": "https://eu.1sb.club:60443/nw12/8-12",
+																											"next": {
+																												"element": "https://autheu.guijicha.cn/nw12/8-12",
+																												"next": null
+																											}
+																										}
+																									}
+																								},
+																								"lastNode": {
+																									"element": "https://autheu.guijicha.cn/nw12/8-12",
+																									"next": null
+																								},
+																								"nElements": 4
+																							}
+																						},
+																						"pId": "13",
+																						"pFlag": 0
+																					},
+																					"next": {
+																						"element": {
+																							"category": 0,
+																							"typeTag": 0,
+																							"isShowZB": true,
+																							"timeout": 0,
+																							"maxTime": 0,
+																							"lineIndex": -1,
+																							"lineFlag": 0,
+																							"id": "N023",
+																							"type": "NN",
+																							"name": "N23",
+																							"flag": 0,
+																							"record": "rec_kkw3",
+																							"greenscreen": false,
+																							"video": {
+																								"id": "N023",
+																								"gms": "3013",
+																								"limitTypes": "A",
+																								"quickMode": 0,
+																								"quality": ["1", "2"],
+																								"useaga": "0",
+																								"addr": {
+																									"firstNode": null,
+																									"lastNode": null,
+																									"nElements": 0
+																								},
+																								"maddr": {
+																									"firstNode": {
+																										"element": "rtmp://eu.guijicha.cn/nw15/8-151",
+																										"next": {
+																											"element": "https://autheu.guijicha.cn/nw15/8-15",
+																											"next": {
+																												"element": "https://eu.1sb.club:60443/nw15/8-15",
+																												"next": {
+																													"element": "https://autheu.guijicha.cn/nw15/8-15",
+																													"next": null
+																												}
+																											}
+																										}
+																									},
+																									"lastNode": {
+																										"element": "https://autheu.guijicha.cn/nw15/8-15",
+																										"next": null
+																									},
+																									"nElements": 4
+																								}
+																							},
+																							"pId": "13",
+																							"pFlag": 0
+																						},
+																						"next": {
+																							"element": {
+																								"category": 0,
+																								"typeTag": 0,
+																								"isShowZB": true,
+																								"timeout": 0,
+																								"maxTime": 0,
+																								"lineIndex": -1,
+																								"lineFlag": 0,
+																								"id": "N026",
+																								"type": "SHB",
+																								"name": "N26",
+																								"flag": 0,
+																								"record": "rec_kkw3",
+																								"greenscreen": false,
+																								"video": {
+																									"id": "N026",
+																									"gms": "3013",
+																									"limitTypes": "A,B",
+																									"quickMode": 0,
+																									"quality": ["1", "2"],
+																									"useaga": "0",
+																									"addr": {
+																										"firstNode": null,
+																										"lastNode": null,
+																										"nElements": 0
+																									},
+																									"maddr": {
+																										"firstNode": {
+																											"element": "rtmp://eu.guijicha.cn/nw16/8-161",
+																											"next": {
+																												"element": "https://autheu.guijicha.cn/nw16/8-16",
+																												"next": {
+																													"element": "https://eu.1sb.club:60443/nw16/8-16",
+																													"next": {
+																														"element": "https://autheu.guijicha.cn/nw16/8-16",
+																														"next": null
+																													}
+																												}
+																											}
+																										},
+																										"lastNode": {
+																											"element": "https://autheu.guijicha.cn/nw16/8-16",
+																											"next": null
+																										},
+																										"nElements": 4
+																									}
+																								},
+																								"pId": "13",
+																								"pFlag": 0
+																							},
+																							"next": null
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"lastNode": {
+						"element": {
+							"category": 0,
+							"typeTag": 0,
+							"isShowZB": true,
+							"timeout": 0,
+							"maxTime": 0,
+							"lineIndex": -1,
+							"lineFlag": 0,
+							"id": "N026",
+							"type": "SHB",
+							"name": "N26",
+							"flag": 0,
+							"record": "rec_kkw3",
+							"greenscreen": false,
+							"video": {
+								"id": "N026",
+								"gms": "3013",
+								"limitTypes": "A,B",
+								"quickMode": 0,
+								"quality": ["1", "2"],
+								"useaga": "0",
+								"addr": {
+									"firstNode": null,
+									"lastNode": null,
+									"nElements": 0
+								},
+								"maddr": {
+									"firstNode": {
+										"element": "rtmp://eu.guijicha.cn/nw16/8-161",
+										"next": {
+											"element": "https://autheu.guijicha.cn/nw16/8-16",
+											"next": {
+												"element": "https://eu.1sb.club:60443/nw16/8-16",
+												"next": {
+													"element": "https://autheu.guijicha.cn/nw16/8-16",
+													"next": null
+												}
+											}
+										}
+									},
+									"lastNode": {
+										"element": "https://autheu.guijicha.cn/nw16/8-16",
+										"next": null
+									},
+									"nElements": 4
+								}
+							},
+							"pId": "13",
+							"pFlag": 0
+						},
+						"next": null
+					},
+					"nElements": 18
+				},
+				"id": "13",
+				"flag": 0
+			},
+			"next": {
+				"element": {
+					"rooms": {
+						"firstNode": {
+							"element": {
+								"category": 0,
+								"typeTag": 0,
+								"isShowZB": true,
+								"timeout": 0,
+								"maxTime": 0,
+								"lineIndex": -1,
+								"lineFlag": 0,
+								"id": "B001",
+								"type": "BAC",
+								"name": "B01",
+								"flag": 0,
+								"record": "rec_agqj",
+								"greenscreen": false,
+								"video": {
+									"id": "B001",
+									"gms": "3003",
+									"limitTypes": "A,C,D,E,V",
+									"quickMode": 0,
+									"quality": ["1", "2", "4"],
+									"useaga": "0",
+									"addr": {
+										"firstNode": null,
+										"lastNode": null,
+										"nElements": 0
+									},
+									"maddr": {
+										"firstNode": {
+											"element": "rtmp://g01.guijicha.cn/tz01/8-11",
+											"next": {
+												"element": "https://authg01.guijicha.cn/tz01/8-1",
+												"next": {
+													"element": "https://g01.1sb.club:60443/tz01/8-1",
+													"next": {
+														"element": "https://authg01.guijicha.cn/tz01/8-1",
+														"next": null
+													}
+												}
+											}
+										},
+										"lastNode": {
+											"element": "https://authg01.guijicha.cn/tz01/8-1",
+											"next": null
+										},
+										"nElements": 4
+									}
+								},
+								"pId": "2",
+								"pFlag": 0
+							},
+							"next": {
+								"element": {
+									"category": 0,
+									"typeTag": 0,
+									"isShowZB": true,
+									"timeout": 0,
+									"maxTime": 0,
+									"lineIndex": -1,
+									"lineFlag": 0,
+									"id": "B002",
+									"type": "BAC",
+									"name": "B02",
+									"flag": 0,
+									"record": "rec_agqj",
+									"greenscreen": false,
+									"video": {
+										"id": "B002",
+										"gms": "3003",
+										"limitTypes": "A,C,D,E,V",
+										"quickMode": 0,
+										"quality": ["1", "2", "4"],
+										"useaga": "0",
+										"addr": {
+											"firstNode": null,
+											"lastNode": null,
+											"nElements": 0
+										},
+										"maddr": {
+											"firstNode": {
+												"element": "rtmp://g01.guijicha.cn/tz02/8-21",
+												"next": {
+													"element": "https://authg01.guijicha.cn/tz02/8-2",
+													"next": {
+														"element": "https://g01.1sb.club:60443/tz02/8-2",
+														"next": {
+															"element": "https://authg01.guijicha.cn/tz02/8-2",
+															"next": null
+														}
+													}
+												}
+											},
+											"lastNode": {
+												"element": "https://authg01.guijicha.cn/tz02/8-2",
+												"next": null
+											},
+											"nElements": 4
+										}
+									},
+									"pId": "2",
+									"pFlag": 0
+								},
+								"next": {
+									"element": {
+										"category": 0,
+										"typeTag": 0,
+										"isShowZB": true,
+										"timeout": 0,
+										"maxTime": 0,
+										"lineIndex": -1,
+										"lineFlag": 0,
+										"id": "B003",
+										"type": "BAC",
+										"name": "B03",
+										"flag": 0,
+										"record": "rec_agqj",
+										"greenscreen": false,
+										"video": {
+											"id": "B003",
+											"gms": "3003",
+											"limitTypes": "A,C,D,E,V",
+											"quickMode": 0,
+											"quality": ["1", "2", "4"],
+											"useaga": "0",
+											"addr": {
+												"firstNode": null,
+												"lastNode": null,
+												"nElements": 0
+											},
+											"maddr": {
+												"firstNode": {
+													"element": "rtmp://g01.guijicha.cn/tz03/8-31",
+													"next": {
+														"element": "https://authg01.guijicha.cn/tz03/8-3",
+														"next": {
+															"element": "https://g01.1sb.club:60443/tz03/8-3",
+															"next": {
+																"element": "https://authg01.guijicha.cn/tz03/8-3",
+																"next": null
+															}
+														}
+													}
+												},
+												"lastNode": {
+													"element": "https://authg01.guijicha.cn/tz03/8-3",
+													"next": null
+												},
+												"nElements": 4
+											}
+										},
+										"pId": "2",
+										"pFlag": 0
+									},
+									"next": {
+										"element": {
+											"category": 0,
+											"typeTag": 0,
+											"isShowZB": true,
+											"timeout": 0,
+											"maxTime": 0,
+											"lineIndex": -1,
+											"lineFlag": 0,
+											"id": "B004",
+											"type": "BAC",
+											"name": "B04",
+											"flag": 0,
+											"record": "rec_agqj",
+											"greenscreen": false,
+											"video": {
+												"id": "B004",
+												"gms": "3003",
+												"limitTypes": "A,C,D,E,V",
+												"quickMode": 5,
+												"quality": ["1", "2", "4"],
+												"useaga": "0",
+												"addr": {
+													"firstNode": null,
+													"lastNode": null,
+													"nElements": 0
+												},
+												"maddr": {
+													"firstNode": {
+														"element": "rtmp://g01.guijicha.cn/tz04/8-41",
+														"next": {
+															"element": "https://authg01.guijicha.cn/tz04/8-4",
+															"next": {
+																"element": "https://g01.1sb.club:60443/tz04/8-4",
+																"next": {
+																	"element": "https://authg01.guijicha.cn/tz04/8-4",
+																	"next": null
+																}
+															}
+														}
+													},
+													"lastNode": {
+														"element": "https://authg01.guijicha.cn/tz04/8-4",
+														"next": null
+													},
+													"nElements": 4
+												}
+											},
+											"pId": "2",
+											"pFlag": 0
+										},
+										"next": {
+											"element": {
+												"category": 0,
+												"typeTag": 0,
+												"isShowZB": true,
+												"timeout": 0,
+												"maxTime": 0,
+												"lineIndex": -1,
+												"lineFlag": 0,
+												"id": "B005",
+												"type": "BAC",
+												"name": "B05",
+												"flag": 0,
+												"record": "rec_agqj",
+												"greenscreen": false,
+												"video": {
+													"id": "B005",
+													"gms": "3003",
+													"limitTypes": "A,C,D,E,V",
+													"quickMode": 1,
+													"quality": ["1", "2", "4"],
+													"useaga": "0",
+													"addr": {
+														"firstNode": null,
+														"lastNode": null,
+														"nElements": 0
+													},
+													"maddr": {
+														"firstNode": {
+															"element": "rtmp://g01.guijicha.cn/tz05/8-51",
+															"next": {
+																"element": "https://authg01.guijicha.cn/tz05/8-5",
+																"next": {
+																	"element": "https://g01.1sb.club:60443/tz05/8-5",
+																	"next": {
+																		"element": "https://authg01.guijicha.cn/tz05/8-5",
+																		"next": null
+																	}
+																}
+															}
+														},
+														"lastNode": {
+															"element": "https://authg01.guijicha.cn/tz05/8-5",
+															"next": null
+														},
+														"nElements": 4
+													}
+												},
+												"pId": "2",
+												"pFlag": 0
+											},
+											"next": {
+												"element": {
+													"category": 0,
+													"typeTag": 0,
+													"isShowZB": true,
+													"timeout": 0,
+													"maxTime": 0,
+													"lineIndex": -1,
+													"lineFlag": 0,
+													"id": "B006",
+													"type": "BAC",
+													"name": "B06",
+													"flag": 0,
+													"record": "rec_agqj",
+													"greenscreen": false,
+													"video": {
+														"id": "B006",
+														"gms": "3003",
+														"limitTypes": "A,C,D,E,V",
+														"quickMode": 1,
+														"quality": ["1", "2", "4"],
+														"useaga": "1",
+														"addr": {
+															"firstNode": null,
+															"lastNode": null,
+															"nElements": 0
+														},
+														"maddr": {
+															"firstNode": {
+																"element": "rtmp://g01.guijicha.cn/tz06/8-61",
+																"next": {
+																	"element": "https://authg01.guijicha.cn/tz06/8-6",
+																	"next": {
+																		"element": "https://g01.1sb.club:60443/tz06/8-6",
+																		"next": {
+																			"element": "https://authg01.guijicha.cn/tz06/8-6",
+																			"next": null
+																		}
+																	}
+																}
+															},
+															"lastNode": {
+																"element": "https://authg01.guijicha.cn/tz06/8-6",
+																"next": null
+															},
+															"nElements": 4
+														}
+													},
+													"pId": "2",
+													"pFlag": 0
+												},
+												"next": {
+													"element": {
+														"category": 0,
+														"typeTag": 0,
+														"isShowZB": true,
+														"timeout": 0,
+														"maxTime": 0,
+														"lineIndex": -1,
+														"lineFlag": 0,
+														"id": "B022",
+														"type": "NN",
+														"name": "B22",
+														"flag": 0,
+														"record": "rec_agqj",
+														"greenscreen": false,
+														"video": {
+															"id": "B022",
+															"gms": "3003",
+															"limitTypes": "A",
+															"quickMode": 0,
+															"quality": ["1", "2", "4"],
+															"useaga": "0",
+															"addr": {
+																"firstNode": null,
+																"lastNode": null,
+																"nElements": 0
+															},
+															"maddr": {
+																"firstNode": {
+																	"element": "rtmp://g01.guijicha.cn/tz22/8-221",
+																	"next": {
+																		"element": "https://authg01.guijicha.cn/tz22/8-22",
+																		"next": {
+																			"element": "https://g01.1sb.club:60443/tz22/8-22",
+																			"next": {
+																				"element": "https://authg01.guijicha.cn/tz22/8-22",
+																				"next": null
+																			}
+																		}
+																	}
+																},
+																"lastNode": {
+																	"element": "https://authg01.guijicha.cn/tz22/8-22",
+																	"next": null
+																},
+																"nElements": 4
+															}
+														},
+														"pId": "2",
+														"pFlag": 0
+													},
+													"next": {
+														"element": {
+															"category": 0,
+															"typeTag": 0,
+															"isShowZB": true,
+															"timeout": 0,
+															"maxTime": 0,
+															"lineIndex": -1,
+															"lineFlag": 0,
+															"id": "T023",
+															"type": "CBAC",
+															"name": "T23",
+															"flag": 0,
+															"record": "rec_agqj",
+															"greenscreen": false,
+															"video": {
+																"id": "T023",
+																"gms": "3004",
+																"limitTypes": "L1",
+																"quickMode": 0,
+																"quality": ["1", "2", "4"],
+																"useaga": "0",
+																"addr": {
+																	"firstNode": null,
+																	"lastNode": null,
+																	"nElements": 0
+																},
+																"maddr": {
+																	"firstNode": {
+																		"element": "rtmp://g01.guijicha.cn/tz123/8-1231",
+																		"next": {
+																			"element": "https://authg01.guijicha.cn/tz123/8-123",
+																			"next": {
+																				"element": "https://g01.1sb.club:60443/tz123/8-123",
+																				"next": {
+																					"element": "https://authg01.guijicha.cn/tz123/8-123",
+																					"next": null
+																				}
+																			}
+																		}
+																	},
+																	"lastNode": {
+																		"element": "https://authg01.guijicha.cn/tz123/8-123",
+																		"next": null
+																	},
+																	"nElements": 4
+																}
+															},
+															"pId": "2",
+															"pFlag": 0
+														},
+														"next": {
+															"element": {
+																"category": 0,
+																"typeTag": 0,
+																"isShowZB": true,
+																"timeout": 0,
+																"maxTime": 0,
+																"lineIndex": -1,
+																"lineFlag": 0,
+																"id": "T024",
+																"type": "CBAC",
+																"name": "T24",
+																"flag": 0,
+																"record": "rec_agqj",
+																"greenscreen": false,
+																"video": {
+																	"id": "T024",
+																	"gms": "3004",
+																	"limitTypes": "L1",
+																	"quickMode": 0,
+																	"quality": ["1", "2", "4"],
+																	"useaga": "0",
+																	"addr": {
+																		"firstNode": null,
+																		"lastNode": null,
+																		"nElements": 0
+																	},
+																	"maddr": {
+																		"firstNode": {
+																			"element": "rtmp://g01.guijicha.cn/tz124/8-1241",
+																			"next": {
+																				"element": "https://authg01.guijicha.cn/tz124/8-124",
+																				"next": {
+																					"element": "https://g01.1sb.club:60443/tz124/8-124",
+																					"next": {
+																						"element": "https://authg01.guijicha.cn/tz124/8-124",
+																						"next": null
+																					}
+																				}
+																			}
+																		},
+																		"lastNode": {
+																			"element": "https://authg01.guijicha.cn/tz124/8-124",
+																			"next": null
+																		},
+																		"nElements": 4
+																	}
+																},
+																"pId": "2",
+																"pFlag": 0
+															},
+															"next": {
+																"element": {
+																	"category": 0,
+																	"typeTag": 0,
+																	"isShowZB": true,
+																	"timeout": 0,
+																	"maxTime": 0,
+																	"lineIndex": -1,
+																	"lineFlag": 0,
+																	"id": "T025",
+																	"type": "CBAC",
+																	"name": "T25",
+																	"flag": 0,
+																	"record": "rec_agqj",
+																	"greenscreen": false,
+																	"video": {
+																		"id": "T025",
+																		"gms": "3004",
+																		"limitTypes": "L1",
+																		"quickMode": 0,
+																		"quality": ["1", "2", "4"],
+																		"useaga": "0",
+																		"addr": {
+																			"firstNode": null,
+																			"lastNode": null,
+																			"nElements": 0
+																		},
+																		"maddr": {
+																			"firstNode": {
+																				"element": "rtmp://g01.guijicha.cn/tz125/8-1251",
+																				"next": {
+																					"element": "https://authg01.guijicha.cn/tz125/8-125",
+																					"next": {
+																						"element": "https://g01.1sb.club:60443/tz125/8-125",
+																						"next": {
+																							"element": "https://authg01.guijicha.cn/tz125/8-125",
+																							"next": null
+																						}
+																					}
+																				}
+																			},
+																			"lastNode": {
+																				"element": "https://authg01.guijicha.cn/tz125/8-125",
+																				"next": null
+																			},
+																			"nElements": 4
+																		}
+																	},
+																	"pId": "2",
+																	"pFlag": 0
+																},
+																"next": {
+																	"element": {
+																		"category": 0,
+																		"typeTag": 0,
+																		"isShowZB": true,
+																		"timeout": 0,
+																		"maxTime": 0,
+																		"lineIndex": -1,
+																		"lineFlag": 0,
+																		"id": "T026",
+																		"type": "CBAC",
+																		"name": "T26",
+																		"flag": 0,
+																		"record": "rec_agqj",
+																		"greenscreen": false,
+																		"video": {
+																			"id": "T026",
+																			"gms": "3004",
+																			"limitTypes": "L1",
+																			"quickMode": 0,
+																			"quality": ["1", "2", "4"],
+																			"useaga": "0",
+																			"addr": {
+																				"firstNode": null,
+																				"lastNode": null,
+																				"nElements": 0
+																			},
+																			"maddr": {
+																				"firstNode": {
+																					"element": "rtmp://g01.guijicha.cn/tz126/8-1261",
+																					"next": {
+																						"element": "https://authg01.guijicha.cn/tz126/8-126",
+																						"next": {
+																							"element": "https://g01.1sb.club:60443/tz126/8-126",
+																							"next": {
+																								"element": "https://authg01.guijicha.cn/tz126/8-126",
+																								"next": null
+																							}
+																						}
+																					}
+																				},
+																				"lastNode": {
+																					"element": "https://authg01.guijicha.cn/tz126/8-126",
+																					"next": null
+																				},
+																				"nElements": 4
+																			}
+																		},
+																		"pId": "2",
+																		"pFlag": 0
+																	},
+																	"next": {
+																		"element": {
+																			"category": 0,
+																			"typeTag": 0,
+																			"isShowZB": true,
+																			"timeout": 0,
+																			"maxTime": 0,
+																			"lineIndex": -1,
+																			"lineFlag": 0,
+																			"id": "T031",
+																			"type": "TBAC",
+																			"name": "T31",
+																			"flag": 0,
+																			"record": "rec_agqj",
+																			"greenscreen": false,
+																			"video": {
+																				"id": "T031",
+																				"gms": "3004",
+																				"limitTypes": "D1",
+																				"quickMode": 2,
+																				"quality": ["1", "2", "4"],
+																				"useaga": "0",
+																				"addr": {
+																					"firstNode": null,
+																					"lastNode": null,
+																					"nElements": 0
+																				},
+																				"maddr": {
+																					"firstNode": {
+																						"element": "rtmp://g01.guijicha.cn/tz131/8-1311",
+																						"next": {
+																							"element": "https://authg01.guijicha.cn/tz131/8-131",
+																							"next": {
+																								"element": "https://g01.1sb.club:60443/tz131/8-131",
+																								"next": {
+																									"element": "https://authg01.guijicha.cn/tz131/8-131",
+																									"next": null
+																								}
+																							}
+																						}
+																					},
+																					"lastNode": {
+																						"element": "https://authg01.guijicha.cn/tz131/8-131",
+																						"next": null
+																					},
+																					"nElements": 4
+																				}
+																			},
+																			"pId": "2",
+																			"pFlag": 0
+																		},
+																		"next": {
+																			"element": {
+																				"category": 0,
+																				"typeTag": 0,
+																				"isShowZB": true,
+																				"timeout": 0,
+																				"maxTime": 0,
+																				"lineIndex": -1,
+																				"lineFlag": 0,
+																				"id": "T032",
+																				"type": "TBAC",
+																				"name": "T32",
+																				"flag": 0,
+																				"record": "rec_agqj",
+																				"greenscreen": false,
+																				"video": {
+																					"id": "T032",
+																					"gms": "3004",
+																					"limitTypes": "R1",
+																					"quickMode": 0,
+																					"quality": ["1", "2", "4"],
+																					"useaga": "0",
+																					"addr": {
+																						"firstNode": null,
+																						"lastNode": null,
+																						"nElements": 0
+																					},
+																					"maddr": {
+																						"firstNode": {
+																							"element": "rtmp://g01.guijicha.cn/tz132/8-1321",
+																							"next": {
+																								"element": "https://authg01.guijicha.cn/tz132/8-132",
+																								"next": {
+																									"element": "https://g01.1sb.club:60443/tz132/8-132",
+																									"next": {
+																										"element": "https://authg01.guijicha.cn/tz132/8-132",
+																										"next": null
+																									}
+																								}
+																							}
+																						},
+																						"lastNode": {
+																							"element": "https://authg01.guijicha.cn/tz132/8-132",
+																							"next": null
+																						},
+																						"nElements": 4
+																					}
+																				},
+																				"pId": "2",
+																				"pFlag": 0
+																			},
+																			"next": {
+																				"element": {
+																					"category": 0,
+																					"typeTag": 0,
+																					"isShowZB": true,
+																					"timeout": 0,
+																					"maxTime": 0,
+																					"lineIndex": -1,
+																					"lineFlag": 0,
+																					"id": "T033",
+																					"type": "TBAC",
+																					"name": "T33",
+																					"flag": 0,
+																					"record": "rec_agqj",
+																					"greenscreen": false,
+																					"video": {
+																						"id": "T033",
+																						"gms": "3004",
+																						"limitTypes": "D1",
+																						"quickMode": 3,
+																						"quality": ["1", "2", "4"],
+																						"useaga": "0",
+																						"addr": {
+																							"firstNode": null,
+																							"lastNode": null,
+																							"nElements": 0
+																						},
+																						"maddr": {
+																							"firstNode": {
+																								"element": "rtmp://g01.guijicha.cn/tz133/8-1331",
+																								"next": {
+																									"element": "https://authg01.guijicha.cn/tz133/8-133",
+																									"next": {
+																										"element": "https://g01.1sb.club:60443/tz133/8-133",
+																										"next": {
+																											"element": "https://authg01.guijicha.cn/tz133/8-133",
+																											"next": null
+																										}
+																									}
+																								}
+																							},
+																							"lastNode": {
+																								"element": "https://authg01.guijicha.cn/tz133/8-133",
+																								"next": null
+																							},
+																							"nElements": 4
+																						}
+																					},
+																					"pId": "2",
+																					"pFlag": 0
+																				},
+																				"next": null
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						},
+						"lastNode": {
+							"element": {
+								"category": 0,
+								"typeTag": 0,
+								"isShowZB": true,
+								"timeout": 0,
+								"maxTime": 0,
+								"lineIndex": -1,
+								"lineFlag": 0,
+								"id": "T033",
+								"type": "TBAC",
+								"name": "T33",
+								"flag": 0,
+								"record": "rec_agqj",
+								"greenscreen": false,
+								"video": {
+									"id": "T033",
+									"gms": "3004",
+									"limitTypes": "D1",
+									"quickMode": 3,
+									"quality": ["1", "2", "4"],
+									"useaga": "0",
+									"addr": {
+										"firstNode": null,
+										"lastNode": null,
+										"nElements": 0
+									},
+									"maddr": {
+										"firstNode": {
+											"element": "rtmp://g01.guijicha.cn/tz133/8-1331",
+											"next": {
+												"element": "https://authg01.guijicha.cn/tz133/8-133",
+												"next": {
+													"element": "https://g01.1sb.club:60443/tz133/8-133",
+													"next": {
+														"element": "https://authg01.guijicha.cn/tz133/8-133",
+														"next": null
+													}
+												}
+											}
+										},
+										"lastNode": {
+											"element": "https://authg01.guijicha.cn/tz133/8-133",
+											"next": null
+										},
+										"nElements": 4
+									}
+								},
+								"pId": "2",
+								"pFlag": 0
+							},
+							"next": null
+						},
+						"nElements": 14
+					},
+					"id": "2",
+					"flag": 0
+				},
+				"next": {
+					"element": {
+						"rooms": {
+							"firstNode": {
+								"element": {
+									"category": 0,
+									"typeTag": 0,
+									"isShowZB": true,
+									"timeout": 0,
+									"maxTime": 0,
+									"lineIndex": -1,
+									"lineFlag": 0,
+									"id": "D001",
+									"type": "ROU",
+									"name": "D01",
+									"flag": 0,
+									"record": "rec_ageu",
+									"greenscreen": false,
+									"video": {
+										"id": "D001",
+										"gms": "3005",
+										"limitTypes": "A,B",
+										"quickMode": 0,
+										"quality": ["1", "2"],
+										"useaga": "1",
+										"addr": {
+											"firstNode": null,
+											"lastNode": null,
+											"nElements": 0
+										},
+										"maddr": {
+											"firstNode": {
+												"element": "rtmp://eu.guijicha.cn/live/6-11",
+												"next": {
+													"element": "https://autheu.guijicha.cn/live/6-1",
+													"next": {
+														"element": "https://eu.1sb.club:60443/live/6-1",
+														"next": {
+															"element": "https://autheu.guijicha.cn/live/6-1",
+															"next": null
+														}
+													}
+												}
+											},
+											"lastNode": {
+												"element": "https://autheu.guijicha.cn/live/6-1",
+												"next": null
+											},
+											"nElements": 4
+										}
+									},
+									"pId": "4",
+									"pFlag": 0
+								},
+								"next": {
+									"element": {
+										"category": 0,
+										"typeTag": 0,
+										"isShowZB": true,
+										"timeout": 0,
+										"maxTime": 0,
+										"lineIndex": -1,
+										"lineFlag": 0,
+										"id": "D051",
+										"type": "BAC",
+										"name": "D51",
+										"flag": 0,
+										"record": "rec_ageu",
+										"greenscreen": false,
+										"video": {
+											"id": "D051",
+											"gms": "3005",
+											"limitTypes": "A,C,D,E,V",
+											"quickMode": 0,
+											"quality": ["1", "2"],
+											"useaga": "0",
+											"addr": {
+												"firstNode": null,
+												"lastNode": null,
+												"nElements": 0
+											},
+											"maddr": {
+												"firstNode": {
+													"element": "rtmp://eu.guijicha.cn/live/6-21",
+													"next": {
+														"element": "https://autheu.guijicha.cn/live/6-2",
+														"next": {
+															"element": "https://eu.1sb.club:60443/live/6-2",
+															"next": {
+																"element": "https://autheu.guijicha.cn/live/6-2",
+																"next": null
+															}
+														}
+													}
+												},
+												"lastNode": {
+													"element": "https://autheu.guijicha.cn/live/6-2",
+													"next": null
+												},
+												"nElements": 4
+											}
+										},
+										"pId": "4",
+										"pFlag": 0
+									},
+									"next": {
+										"element": {
+											"category": 0,
+											"typeTag": 0,
+											"isShowZB": true,
+											"timeout": 0,
+											"maxTime": 0,
+											"lineIndex": -1,
+											"lineFlag": 0,
+											"id": "D052",
+											"type": "BAC",
+											"name": "D52",
+											"flag": 0,
+											"record": "rec_ageu",
+											"greenscreen": false,
+											"video": {
+												"id": "D052",
+												"gms": "3005",
+												"limitTypes": "A,C,D,E,V",
+												"quickMode": 0,
+												"quality": ["1", "2"],
+												"useaga": "0",
+												"addr": {
+													"firstNode": null,
+													"lastNode": null,
+													"nElements": 0
+												},
+												"maddr": {
+													"firstNode": {
+														"element": "rtmp://eu.guijicha.cn/live/6-71",
+														"next": {
+															"element": "https://autheu.guijicha.cn/live/6-7",
+															"next": {
+																"element": "https://eu.1sb.club:60443/live/6-7",
+																"next": {
+																	"element": "https://autheu.guijicha.cn/live/6-7",
+																	"next": null
+																}
+															}
+														}
+													},
+													"lastNode": {
+														"element": "https://autheu.guijicha.cn/live/6-7",
+														"next": null
+													},
+													"nElements": 4
+												}
+											},
+											"pId": "4",
+											"pFlag": 0
+										},
+										"next": {
+											"element": {
+												"category": 0,
+												"typeTag": 0,
+												"isShowZB": true,
+												"timeout": 0,
+												"maxTime": 0,
+												"lineIndex": -1,
+												"lineFlag": 0,
+												"id": "D053",
+												"type": "BAC",
+												"name": "D53",
+												"flag": 0,
+												"record": "rec_ageu",
+												"greenscreen": false,
+												"video": {
+													"id": "D053",
+													"gms": "3005",
+													"limitTypes": "A,C,D,E,V",
+													"quickMode": 0,
+													"quality": ["1", "2"],
+													"useaga": "1",
+													"addr": {
+														"firstNode": null,
+														"lastNode": null,
+														"nElements": 0
+													},
+													"maddr": {
+														"firstNode": {
+															"element": "rtmp://eu.guijicha.cn/live/7-21",
+															"next": {
+																"element": "https://autheu.guijicha.cn/live/7-2",
+																"next": {
+																	"element": "https://eu.1sb.club:60443/live/7-2",
+																	"next": {
+																		"element": "https://autheu.guijicha.cn/live/7-2",
+																		"next": null
+																	}
+																}
+															}
+														},
+														"lastNode": {
+															"element": "https://autheu.guijicha.cn/live/7-2",
+															"next": null
+														},
+														"nElements": 4
+													}
+												},
+												"pId": "4",
+												"pFlag": 0
+											},
+											"next": {
+												"element": {
+													"category": 0,
+													"typeTag": 0,
+													"isShowZB": true,
+													"timeout": 0,
+													"maxTime": 0,
+													"lineIndex": -1,
+													"lineFlag": 0,
+													"id": "D054",
+													"type": "BAC",
+													"name": "D54",
+													"flag": 0,
+													"record": "rec_ageu",
+													"greenscreen": false,
+													"video": {
+														"id": "D054",
+														"gms": "3005",
+														"limitTypes": "A,C,D,E,V",
+														"quickMode": 0,
+														"quality": ["1", "2"],
+														"useaga": "0",
+														"addr": {
+															"firstNode": null,
+															"lastNode": null,
+															"nElements": 0
+														},
+														"maddr": {
+															"firstNode": {
+																"element": "rtmp://eu.guijicha.cn/live/7-31",
+																"next": {
+																	"element": "https://autheu.guijicha.cn/live/7-3",
+																	"next": {
+																		"element": "https://eu.1sb.club:60443/live/7-3",
+																		"next": {
+																			"element": "https://autheu.guijicha.cn/live/7-3",
+																			"next": null
+																		}
+																	}
+																}
+															},
+															"lastNode": {
+																"element": "https://autheu.guijicha.cn/live/7-3",
+																"next": null
+															},
+															"nElements": 4
+														}
+													},
+													"pId": "4",
+													"pFlag": 0
+												},
+												"next": {
+													"element": {
+														"category": 0,
+														"typeTag": 0,
+														"isShowZB": true,
+														"timeout": 0,
+														"maxTime": 0,
+														"lineIndex": -1,
+														"lineFlag": 0,
+														"id": "D055",
+														"type": "BAC",
+														"name": "D55",
+														"flag": 0,
+														"record": "rec_ageu",
+														"greenscreen": false,
+														"video": {
+															"id": "D055",
+															"gms": "3005",
+															"limitTypes": "A,C,D,E,V",
+															"quickMode": 1,
+															"quality": ["1", "2"],
+															"useaga": "0",
+															"addr": {
+																"firstNode": null,
+																"lastNode": null,
+																"nElements": 0
+															},
+															"maddr": {
+																"firstNode": {
+																	"element": "rtmp://eu.guijicha.cn/live/7-71",
+																	"next": {
+																		"element": "https://autheu.guijicha.cn/live/7-7",
+																		"next": {
+																			"element": "https://eu.1sb.club:60443/live/7-7",
+																			"next": {
+																				"element": "https://autheu.guijicha.cn/live/7-7",
+																				"next": null
+																			}
+																		}
+																	}
+																},
+																"lastNode": {
+																	"element": "https://autheu.guijicha.cn/live/7-7",
+																	"next": null
+																},
+																"nElements": 4
+															}
+														},
+														"pId": "4",
+														"pFlag": 0
+													},
+													"next": {
+														"element": {
+															"category": 0,
+															"typeTag": 0,
+															"isShowZB": true,
+															"timeout": 0,
+															"maxTime": 0,
+															"lineIndex": -1,
+															"lineFlag": 0,
+															"id": "D056",
+															"type": "BAC",
+															"name": "D56",
+															"flag": 0,
+															"record": "rec_ageu",
+															"greenscreen": false,
+															"video": {
+																"id": "D056",
+																"gms": "3005",
+																"limitTypes": "A,C,D,E,V",
+																"quickMode": 1,
+																"quality": ["1", "2"],
+																"useaga": "0",
+																"addr": {
+																	"firstNode": null,
+																	"lastNode": null,
+																	"nElements": 0
+																},
+																"maddr": {
+																	"firstNode": {
+																		"element": "rtmp://eu.guijicha.cn/live/8-21",
+																		"next": {
+																			"element": "https://autheu.guijicha.cn/live/8-2",
+																			"next": {
+																				"element": "https://eu.1sb.club:60443/live/8-2",
+																				"next": {
+																					"element": "https://autheu.guijicha.cn/live/8-2",
+																					"next": null
+																				}
+																			}
+																		}
+																	},
+																	"lastNode": {
+																		"element": "https://autheu.guijicha.cn/live/8-2",
+																		"next": null
+																	},
+																	"nElements": 4
+																}
+															},
+															"pId": "4",
+															"pFlag": 0
+														},
+														"next": {
+															"element": {
+																"category": 0,
+																"typeTag": 0,
+																"isShowZB": true,
+																"timeout": 0,
+																"maxTime": 0,
+																"lineIndex": -1,
+																"lineFlag": 0,
+																"id": "D057",
+																"type": "BAC",
+																"name": "D57",
+																"flag": 0,
+																"record": "rec_ageu",
+																"greenscreen": false,
+																"video": {
+																	"id": "D057",
+																	"gms": "3005",
+																	"limitTypes": "A,C,D,E,V",
+																	"quickMode": 1,
+																	"quality": ["1", "2"],
+																	"useaga": "0",
+																	"addr": {
+																		"firstNode": null,
+																		"lastNode": null,
+																		"nElements": 0
+																	},
+																	"maddr": {
+																		"firstNode": {
+																			"element": "rtmp://eu.guijicha.cn/live/8-31",
+																			"next": {
+																				"element": "https://autheu.guijicha.cn/live/8-3",
+																				"next": {
+																					"element": "https://eu.1sb.club:60443/live/8-3",
+																					"next": {
+																						"element": "https://autheu.guijicha.cn/live/8-3",
+																						"next": null
+																					}
+																				}
+																			}
+																		},
+																		"lastNode": {
+																			"element": "https://autheu.guijicha.cn/live/8-3",
+																			"next": null
+																		},
+																		"nElements": 4
+																	}
+																},
+																"pId": "4",
+																"pFlag": 0
+															},
+															"next": {
+																"element": {
+																	"category": 0,
+																	"typeTag": 0,
+																	"isShowZB": true,
+																	"timeout": 0,
+																	"maxTime": 0,
+																	"lineIndex": -1,
+																	"lineFlag": 0,
+																	"id": "D058",
+																	"type": "BAC",
+																	"name": "D58",
+																	"flag": 0,
+																	"record": "rec_ageu",
+																	"greenscreen": false,
+																	"video": {
+																		"id": "D058",
+																		"gms": "3005",
+																		"limitTypes": "A,C,D,E,V",
+																		"quickMode": 0,
+																		"quality": ["1", "2"],
+																		"useaga": "0",
+																		"addr": {
+																			"firstNode": null,
+																			"lastNode": null,
+																			"nElements": 0
+																		},
+																		"maddr": {
+																			"firstNode": {
+																				"element": "rtmp://eu.guijicha.cn/live/8-51",
+																				"next": {
+																					"element": "https://autheu.guijicha.cn/live/8-5",
+																					"next": {
+																						"element": "https://eu.1sb.club:60443/live/8-5",
+																						"next": {
+																							"element": "https://autheu.guijicha.cn/live/8-5",
+																							"next": null
+																						}
+																					}
+																				}
+																			},
+																			"lastNode": {
+																				"element": "https://autheu.guijicha.cn/live/8-5",
+																				"next": null
+																			},
+																			"nElements": 4
+																		}
+																	},
+																	"pId": "4",
+																	"pFlag": 0
+																},
+																"next": {
+																	"element": {
+																		"category": 0,
+																		"typeTag": 0,
+																		"isShowZB": true,
+																		"timeout": 0,
+																		"maxTime": 0,
+																		"lineIndex": -1,
+																		"lineFlag": 0,
+																		"id": "D059",
+																		"type": "BAC",
+																		"name": "D59",
+																		"flag": 0,
+																		"record": "rec_ageu",
+																		"greenscreen": false,
+																		"video": {
+																			"id": "D059",
+																			"gms": "3005",
+																			"limitTypes": "A,C,D,E,V",
+																			"quickMode": 0,
+																			"quality": ["1", "2"],
+																			"useaga": "0",
+																			"addr": {
+																				"firstNode": null,
+																				"lastNode": null,
+																				"nElements": 0
+																			},
+																			"maddr": {
+																				"firstNode": {
+																					"element": "rtmp://eu.guijicha.cn/live/8-61",
+																					"next": {
+																						"element": "https://autheu.guijicha.cn/live/8-6",
+																						"next": {
+																							"element": "https://eu.1sb.club:60443/live/8-6",
+																							"next": {
+																								"element": "https://autheu.guijicha.cn/live/8-6",
+																								"next": null
+																							}
+																						}
+																					}
+																				},
+																				"lastNode": {
+																					"element": "https://autheu.guijicha.cn/live/8-6",
+																					"next": null
+																				},
+																				"nElements": 4
+																			}
+																		},
+																		"pId": "4",
+																		"pFlag": 0
+																	},
+																	"next": null
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							},
+							"lastNode": {
+								"element": {
+									"category": 0,
+									"typeTag": 0,
+									"isShowZB": true,
+									"timeout": 0,
+									"maxTime": 0,
+									"lineIndex": -1,
+									"lineFlag": 0,
+									"id": "D059",
+									"type": "BAC",
+									"name": "D59",
+									"flag": 0,
+									"record": "rec_ageu",
+									"greenscreen": false,
+									"video": {
+										"id": "D059",
+										"gms": "3005",
+										"limitTypes": "A,C,D,E,V",
+										"quickMode": 0,
+										"quality": ["1", "2"],
+										"useaga": "0",
+										"addr": {
+											"firstNode": null,
+											"lastNode": null,
+											"nElements": 0
+										},
+										"maddr": {
+											"firstNode": {
+												"element": "rtmp://eu.guijicha.cn/live/8-61",
+												"next": {
+													"element": "https://autheu.guijicha.cn/live/8-6",
+													"next": {
+														"element": "https://eu.1sb.club:60443/live/8-6",
+														"next": {
+															"element": "https://autheu.guijicha.cn/live/8-6",
+															"next": null
+														}
+													}
+												}
+											},
+											"lastNode": {
+												"element": "https://autheu.guijicha.cn/live/8-6",
+												"next": null
+											},
+											"nElements": 4
+										}
+									},
+									"pId": "4",
+									"pFlag": 0
+								},
+								"next": null
+							},
+							"nElements": 10
+						},
+						"id": "4",
+						"flag": 0
+					},
+					"next": {
+						"element": {
+							"rooms": {
+								"firstNode": {
+									"element": {
+										"category": 0,
+										"typeTag": 0,
+										"isShowZB": true,
+										"timeout": 0,
+										"maxTime": 0,
+										"lineIndex": -1,
+										"lineFlag": 0,
+										"id": "D070",
+										"type": "BAC",
+										"name": "D70",
+										"flag": 0,
+										"record": "rec_ageu2",
+										"greenscreen": false,
+										"video": {
+											"id": "D070",
+											"gms": "3005",
+											"limitTypes": "A,C,D,E,V",
+											"quickMode": 0,
+											"quality": ["1", "2"],
+											"useaga": "0",
+											"addr": {
+												"firstNode": null,
+												"lastNode": null,
+												"nElements": 0
+											},
+											"maddr": {
+												"firstNode": {
+													"element": "rtmp://eu.guijicha.cn/blive/1011",
+													"next": {
+														"element": "https://autheu.guijicha.cn/blive/101",
+														"next": {
+															"element": "https://eu.1sb.club:60443/blive/101",
+															"next": {
+																"element": "https://autheu.guijicha.cn/blive/101",
+																"next": null
+															}
+														}
+													}
+												},
+												"lastNode": {
+													"element": "https://autheu.guijicha.cn/blive/101",
+													"next": null
+												},
+												"nElements": 4
+											}
+										},
+										"pId": "41",
+										"pFlag": 0
+									},
+									"next": {
+										"element": {
+											"category": 0,
+											"typeTag": 0,
+											"isShowZB": true,
+											"timeout": 0,
+											"maxTime": 0,
+											"lineIndex": -1,
+											"lineFlag": 0,
+											"id": "D071",
+											"type": "BAC",
+											"name": "D71",
+											"flag": 0,
+											"record": "rec_ageu2",
+											"greenscreen": false,
+											"video": {
+												"id": "D071",
+												"gms": "3005",
+												"limitTypes": "A,C,D,E,V",
+												"quickMode": 0,
+												"quality": ["1", "2"],
+												"useaga": "0",
+												"addr": {
+													"firstNode": null,
+													"lastNode": null,
+													"nElements": 0
+												},
+												"maddr": {
+													"firstNode": {
+														"element": "rtmp://eu.guijicha.cn/blive/1021",
+														"next": {
+															"element": "https://autheu.guijicha.cn/blive/102",
+															"next": {
+																"element": "https://eu.1sb.club:60443/blive/102",
+																"next": {
+																	"element": "https://autheu.guijicha.cn/blive/102",
+																	"next": null
+																}
+															}
+														}
+													},
+													"lastNode": {
+														"element": "https://autheu.guijicha.cn/blive/102",
+														"next": null
+													},
+													"nElements": 4
+												}
+											},
+											"pId": "41",
+											"pFlag": 0
+										},
+										"next": {
+											"element": {
+												"category": 0,
+												"typeTag": 0,
+												"isShowZB": true,
+												"timeout": 0,
+												"maxTime": 0,
+												"lineIndex": -1,
+												"lineFlag": 0,
+												"id": "D072",
+												"type": "BAC",
+												"name": "D72",
+												"flag": 0,
+												"record": "rec_ageu2",
+												"greenscreen": false,
+												"video": {
+													"id": "D072",
+													"gms": "3005",
+													"limitTypes": "A,C,D,E,V",
+													"quickMode": 0,
+													"quality": ["1", "2"],
+													"useaga": "0",
+													"addr": {
+														"firstNode": null,
+														"lastNode": null,
+														"nElements": 0
+													},
+													"maddr": {
+														"firstNode": {
+															"element": "rtmp://eu.guijicha.cn/blive/1031",
+															"next": {
+																"element": "https://autheu.guijicha.cn/blive/103",
+																"next": {
+																	"element": "https://eu.1sb.club:60443/blive/103",
+																	"next": {
+																		"element": "https://autheu.guijicha.cn/blive/103",
+																		"next": null
+																	}
+																}
+															}
+														},
+														"lastNode": {
+															"element": "https://autheu.guijicha.cn/blive/103",
+															"next": null
+														},
+														"nElements": 4
+													}
+												},
+												"pId": "41",
+												"pFlag": 0
+											},
+											"next": {
+												"element": {
+													"category": 0,
+													"typeTag": 0,
+													"isShowZB": true,
+													"timeout": 0,
+													"maxTime": 0,
+													"lineIndex": -1,
+													"lineFlag": 0,
+													"id": "D073",
+													"type": "BAC",
+													"name": "D73",
+													"flag": 0,
+													"record": "rec_ageu2",
+													"greenscreen": false,
+													"video": {
+														"id": "D073",
+														"gms": "3005",
+														"limitTypes": "A,C,D,E,V",
+														"quickMode": 0,
+														"quality": ["1", "2"],
+														"useaga": "1",
+														"addr": {
+															"firstNode": null,
+															"lastNode": null,
+															"nElements": 0
+														},
+														"maddr": {
+															"firstNode": {
+																"element": "rtmp://eu.guijicha.cn/blive/1041",
+																"next": {
+																	"element": "https://autheu.guijicha.cn/blive/104",
+																	"next": {
+																		"element": "https://eu.1sb.club:60443/blive/104",
+																		"next": {
+																			"element": "https://autheu.guijicha.cn/blive/104",
+																			"next": null
+																		}
+																	}
+																}
+															},
+															"lastNode": {
+																"element": "https://autheu.guijicha.cn/blive/104",
+																"next": null
+															},
+															"nElements": 4
+														}
+													},
+													"pId": "41",
+													"pFlag": 0
+												},
+												"next": {
+													"element": {
+														"category": 0,
+														"typeTag": 0,
+														"isShowZB": true,
+														"timeout": 0,
+														"maxTime": 0,
+														"lineIndex": -1,
+														"lineFlag": 0,
+														"id": "D075",
+														"type": "DT",
+														"name": "D75",
+														"flag": 0,
+														"record": "rec_ageu2",
+														"greenscreen": false,
+														"video": {
+															"id": "D075",
+															"gms": "3005",
+															"limitTypes": "A,C,D,E",
+															"quickMode": 0,
+															"quality": ["1", "2"],
+															"useaga": "0",
+															"addr": {
+																"firstNode": null,
+																"lastNode": null,
+																"nElements": 0
+															},
+															"maddr": {
+																"firstNode": {
+																	"element": "rtmp://eu.guijicha.cn/blive/1051",
+																	"next": {
+																		"element": "https://autheu.guijicha.cn/blive/105",
+																		"next": {
+																			"element": "https://eu.1sb.club:60443/blive/105",
+																			"next": {
+																				"element": "https://autheu.guijicha.cn/blive/105",
+																				"next": null
+																			}
+																		}
+																	}
+																},
+																"lastNode": {
+																	"element": "https://autheu.guijicha.cn/blive/105",
+																	"next": null
+																},
+																"nElements": 4
+															}
+														},
+														"pId": "41",
+														"pFlag": 0
+													},
+													"next": null
+												}
+											}
+										}
+									}
+								},
+								"lastNode": {
+									"element": {
+										"category": 0,
+										"typeTag": 0,
+										"isShowZB": true,
+										"timeout": 0,
+										"maxTime": 0,
+										"lineIndex": -1,
+										"lineFlag": 0,
+										"id": "D075",
+										"type": "DT",
+										"name": "D75",
+										"flag": 0,
+										"record": "rec_ageu2",
+										"greenscreen": false,
+										"video": {
+											"id": "D075",
+											"gms": "3005",
+											"limitTypes": "A,C,D,E",
+											"quickMode": 0,
+											"quality": ["1", "2"],
+											"useaga": "0",
+											"addr": {
+												"firstNode": null,
+												"lastNode": null,
+												"nElements": 0
+											},
+											"maddr": {
+												"firstNode": {
+													"element": "rtmp://eu.guijicha.cn/blive/1051",
+													"next": {
+														"element": "https://autheu.guijicha.cn/blive/105",
+														"next": {
+															"element": "https://eu.1sb.club:60443/blive/105",
+															"next": {
+																"element": "https://autheu.guijicha.cn/blive/105",
+																"next": null
+															}
+														}
+													}
+												},
+												"lastNode": {
+													"element": "https://autheu.guijicha.cn/blive/105",
+													"next": null
+												},
+												"nElements": 4
+											}
+										},
+										"pId": "41",
+										"pFlag": 0
+									},
+									"next": null
+								},
+								"nElements": 5
+							},
+							"id": "41",
+							"flag": 0
+						},
+						"next": {
+							"element": {
+								"rooms": {
+									"firstNode": {
+										"element": {
+											"category": 0,
+											"typeTag": 0,
+											"isShowZB": true,
+											"timeout": 0,
+											"maxTime": 0,
+											"lineIndex": -1,
+											"lineFlag": 0,
+											"id": "ZB01",
+											"type": "DYBR",
+											"name": "ZB1",
+											"flag": 0,
+											"record": "",
+											"greenscreen": false,
+											"video": {
+												"id": "ZB01",
+												"gms": "3007",
+												"limitTypes": "A",
+												"quickMode": 0,
+												"quality": ["1", "2"],
+												"useaga": "0",
+												"addr": {
+													"firstNode": null,
+													"lastNode": null,
+													"nElements": 0
+												},
+												"maddr": {
+													"firstNode": null,
+													"lastNode": null,
+													"nElements": 0
+												}
+											},
+											"pId": "8",
+											"pFlag": 0
+										},
+										"next": {
+											"element": {
+												"category": 0,
+												"typeTag": 0,
+												"isShowZB": true,
+												"timeout": 0,
+												"maxTime": 0,
+												"lineIndex": -1,
+												"lineFlag": 0,
+												"id": "ZD01",
+												"type": "DYDZ",
+												"name": "ZD1",
+												"flag": 0,
+												"record": "",
+												"greenscreen": false,
+												"video": {
+													"id": "ZD01",
+													"gms": "3007",
+													"limitTypes": "A",
+													"quickMode": 0,
+													"quality": ["1", "2"],
+													"useaga": "0",
+													"addr": {
+														"firstNode": null,
+														"lastNode": null,
+														"nElements": 0
+													},
+													"maddr": {
+														"firstNode": null,
+														"lastNode": null,
+														"nElements": 0
+													}
+												},
+												"pId": "8",
+												"pFlag": 0
+											},
+											"next": {
+												"element": {
+													"category": 0,
+													"typeTag": 0,
+													"isShowZB": true,
+													"timeout": 0,
+													"maxTime": 0,
+													"lineIndex": -1,
+													"lineFlag": 0,
+													"id": "ZN01",
+													"type": "DYNN",
+													"name": "ZN1",
+													"flag": 0,
+													"record": "",
+													"greenscreen": false,
+													"video": {
+														"id": "ZN01",
+														"gms": "3007",
+														"limitTypes": "A",
+														"quickMode": 0,
+														"quality": ["1", "2"],
+														"useaga": "0",
+														"addr": {
+															"firstNode": null,
+															"lastNode": null,
+															"nElements": 0
+														},
+														"maddr": {
+															"firstNode": null,
+															"lastNode": null,
+															"nElements": 0
+														}
+													},
+													"pId": "8",
+													"pFlag": 0
+												},
+												"next": {
+													"element": {
+														"category": 0,
+														"typeTag": 0,
+														"isShowZB": true,
+														"timeout": 0,
+														"maxTime": 0,
+														"lineIndex": -1,
+														"lineFlag": 0,
+														"id": "ZT01",
+														"type": "DYTZ",
+														"name": "ZT1",
+														"flag": 0,
+														"record": "",
+														"greenscreen": false,
+														"video": {
+															"id": "ZT01",
+															"gms": "3007",
+															"limitTypes": "A",
+															"quickMode": 0,
+															"quality": ["1", "2"],
+															"useaga": "0",
+															"addr": {
+																"firstNode": null,
+																"lastNode": null,
+																"nElements": 0
+															},
+															"maddr": {
+																"firstNode": null,
+																"lastNode": null,
+																"nElements": 0
+															}
+														},
+														"pId": "8",
+														"pFlag": 0
+													},
+													"next": {
+														"element": {
+															"category": 0,
+															"typeTag": 0,
+															"isShowZB": true,
+															"timeout": 0,
+															"maxTime": 0,
+															"lineIndex": -1,
+															"lineFlag": 0,
+															"id": "ZZ01",
+															"type": "DYZG",
+															"name": "ZZ1",
+															"flag": 0,
+															"record": "",
+															"greenscreen": false,
+															"video": {
+																"id": "ZZ01",
+																"gms": "3007",
+																"limitTypes": "A",
+																"quickMode": 0,
+																"quality": ["1", "2"],
+																"useaga": "0",
+																"addr": {
+																	"firstNode": null,
+																	"lastNode": null,
+																	"nElements": 0
+																},
+																"maddr": {
+																	"firstNode": null,
+																	"lastNode": null,
+																	"nElements": 0
+																}
+															},
+															"pId": "8",
+															"pFlag": 0
+														},
+														"next": null
+													}
+												}
+											}
+										}
+									},
+									"lastNode": {
+										"element": {
+											"category": 0,
+											"typeTag": 0,
+											"isShowZB": true,
+											"timeout": 0,
+											"maxTime": 0,
+											"lineIndex": -1,
+											"lineFlag": 0,
+											"id": "ZZ01",
+											"type": "DYZG",
+											"name": "ZZ1",
+											"flag": 0,
+											"record": "",
+											"greenscreen": false,
+											"video": {
+												"id": "ZZ01",
+												"gms": "3007",
+												"limitTypes": "A",
+												"quickMode": 0,
+												"quality": ["1", "2"],
+												"useaga": "0",
+												"addr": {
+													"firstNode": null,
+													"lastNode": null,
+													"nElements": 0
+												},
+												"maddr": {
+													"firstNode": null,
+													"lastNode": null,
+													"nElements": 0
+												}
+											},
+											"pId": "8",
+											"pFlag": 0
+										},
+										"next": null
+									},
+									"nElements": 5
+								},
+								"id": "8",
+								"flag": 0
+							},
+							"next": null
+						}
+					}
+				}
+			}
+		},
+		"lastNode": {
+			"element": {
+				"rooms": {
+					"firstNode": {
+						"element": {
+							"category": 0,
+							"typeTag": 0,
+							"isShowZB": true,
+							"timeout": 0,
+							"maxTime": 0,
+							"lineIndex": -1,
+							"lineFlag": 0,
+							"id": "ZB01",
+							"type": "DYBR",
+							"name": "ZB1",
+							"flag": 0,
+							"record": "",
+							"greenscreen": false,
+							"video": {
+								"id": "ZB01",
+								"gms": "3007",
+								"limitTypes": "A",
+								"quickMode": 0,
+								"quality": ["1", "2"],
+								"useaga": "0",
+								"addr": {
+									"firstNode": null,
+									"lastNode": null,
+									"nElements": 0
+								},
+								"maddr": {
+									"firstNode": null,
+									"lastNode": null,
+									"nElements": 0
+								}
+							},
+							"pId": "8",
+							"pFlag": 0
+						},
+						"next": {
+							"element": {
+								"category": 0,
+								"typeTag": 0,
+								"isShowZB": true,
+								"timeout": 0,
+								"maxTime": 0,
+								"lineIndex": -1,
+								"lineFlag": 0,
+								"id": "ZD01",
+								"type": "DYDZ",
+								"name": "ZD1",
+								"flag": 0,
+								"record": "",
+								"greenscreen": false,
+								"video": {
+									"id": "ZD01",
+									"gms": "3007",
+									"limitTypes": "A",
+									"quickMode": 0,
+									"quality": ["1", "2"],
+									"useaga": "0",
+									"addr": {
+										"firstNode": null,
+										"lastNode": null,
+										"nElements": 0
+									},
+									"maddr": {
+										"firstNode": null,
+										"lastNode": null,
+										"nElements": 0
+									}
+								},
+								"pId": "8",
+								"pFlag": 0
+							},
+							"next": {
+								"element": {
+									"category": 0,
+									"typeTag": 0,
+									"isShowZB": true,
+									"timeout": 0,
+									"maxTime": 0,
+									"lineIndex": -1,
+									"lineFlag": 0,
+									"id": "ZN01",
+									"type": "DYNN",
+									"name": "ZN1",
+									"flag": 0,
+									"record": "",
+									"greenscreen": false,
+									"video": {
+										"id": "ZN01",
+										"gms": "3007",
+										"limitTypes": "A",
+										"quickMode": 0,
+										"quality": ["1", "2"],
+										"useaga": "0",
+										"addr": {
+											"firstNode": null,
+											"lastNode": null,
+											"nElements": 0
+										},
+										"maddr": {
+											"firstNode": null,
+											"lastNode": null,
+											"nElements": 0
+										}
+									},
+									"pId": "8",
+									"pFlag": 0
+								},
+								"next": {
+									"element": {
+										"category": 0,
+										"typeTag": 0,
+										"isShowZB": true,
+										"timeout": 0,
+										"maxTime": 0,
+										"lineIndex": -1,
+										"lineFlag": 0,
+										"id": "ZT01",
+										"type": "DYTZ",
+										"name": "ZT1",
+										"flag": 0,
+										"record": "",
+										"greenscreen": false,
+										"video": {
+											"id": "ZT01",
+											"gms": "3007",
+											"limitTypes": "A",
+											"quickMode": 0,
+											"quality": ["1", "2"],
+											"useaga": "0",
+											"addr": {
+												"firstNode": null,
+												"lastNode": null,
+												"nElements": 0
+											},
+											"maddr": {
+												"firstNode": null,
+												"lastNode": null,
+												"nElements": 0
+											}
+										},
+										"pId": "8",
+										"pFlag": 0
+									},
+									"next": {
+										"element": {
+											"category": 0,
+											"typeTag": 0,
+											"isShowZB": true,
+											"timeout": 0,
+											"maxTime": 0,
+											"lineIndex": -1,
+											"lineFlag": 0,
+											"id": "ZZ01",
+											"type": "DYZG",
+											"name": "ZZ1",
+											"flag": 0,
+											"record": "",
+											"greenscreen": false,
+											"video": {
+												"id": "ZZ01",
+												"gms": "3007",
+												"limitTypes": "A",
+												"quickMode": 0,
+												"quality": ["1", "2"],
+												"useaga": "0",
+												"addr": {
+													"firstNode": null,
+													"lastNode": null,
+													"nElements": 0
+												},
+												"maddr": {
+													"firstNode": null,
+													"lastNode": null,
+													"nElements": 0
+												}
+											},
+											"pId": "8",
+											"pFlag": 0
+										},
+										"next": null
+									}
+								}
+							}
+						}
+					},
+					"lastNode": {
+						"element": {
+							"category": 0,
+							"typeTag": 0,
+							"isShowZB": true,
+							"timeout": 0,
+							"maxTime": 0,
+							"lineIndex": -1,
+							"lineFlag": 0,
+							"id": "ZZ01",
+							"type": "DYZG",
+							"name": "ZZ1",
+							"flag": 0,
+							"record": "",
+							"greenscreen": false,
+							"video": {
+								"id": "ZZ01",
+								"gms": "3007",
+								"limitTypes": "A",
+								"quickMode": 0,
+								"quality": ["1", "2"],
+								"useaga": "0",
+								"addr": {
+									"firstNode": null,
+									"lastNode": null,
+									"nElements": 0
+								},
+								"maddr": {
+									"firstNode": null,
+									"lastNode": null,
+									"nElements": 0
+								}
+							},
+							"pId": "8",
+							"pFlag": 0
+						},
+						"next": null
+					},
+					"nElements": 5
+				},
+				"id": "8",
+				"flag": 0
+			},
+			"next": null
+		},
+		"nElements": 5
+	}
+}

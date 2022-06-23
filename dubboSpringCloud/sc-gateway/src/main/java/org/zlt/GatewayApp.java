@@ -16,8 +16,6 @@ import reactor.core.publisher.Flux;
 @SpringBootApplication
 public class GatewayApp {
     public static void main(String[] args) {
-        Flux.defer(() -> Flux.just("just", "just1", "just2"))
-                .subscribe(System.out::println);
-//        SpringApplication.run(GatewayApp.class, args);
+        SpringApplication.run(GatewayApp.class, args);
     }
 }

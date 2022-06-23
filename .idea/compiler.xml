@@ -2,20 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="game" />
         <module name="sc-gateway" />
         <module name="customer-service" />
-        <module name="generate-code" />
         <module name="web-dubbo" />
+        <module name="concurrency" />
         <module name="spring" />
         <module name="zuul-server" />
         <module name="spring-cloud-eureka-example" />
         <module name="db2" />
         <module name="rest-dubbo" />
+        <module name="garbage-collector" />
         <module name="socket" />
         <module name="db" />
         <module name="dubbo-api" />
@@ -24,15 +25,18 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dubbo" target="1.8" />
+      <module name="generate-code" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="algorithm" options="" />
       <module name="db" options="-parameters" />
       <module name="db2" options="-parameters" />
       <module name="dubbo" options="" />
       <module name="dubbo-api" options="" />
-      <module name="generate-code" options="-parameters" />
+      <module name="game" options="" />
+      <module name="generate-code" options="" />
       <module name="socket" options="-parameters" />
       <module name="spring" options="-parameters" />
       <module name="web-dubbo" options="" />

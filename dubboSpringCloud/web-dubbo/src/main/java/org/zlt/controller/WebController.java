@@ -1,12 +1,15 @@
 package org.zlt.controller;
 
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import org.zlt.service.DubboService;
+import org.zlt.service.RestService;
 
+import javax.ws.rs.Consumes;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,6 +24,8 @@ import java.util.Map;
 public class WebController {
     @Autowired
     private DubboService dubboService;
+    @Reference(url="rest://localhost:8080/test/")
+    private RestService restService;
 
     @GetMapping("/test/{p}")
     public String test(@PathVariable("p") String param) {
@@ -28,10 +33,7 @@ public class WebController {
     }
 
     @GetMapping("/test1/{p}")
-    public Map test1(@PathVariable("p") String param) {
-        Map map = new HashMap();
-        map.put("1",1);
-        map.put("2",2);
-        return map;
+    public String test1(@PathVariable("p") String param) {
+        return restService.test();
     }
 }

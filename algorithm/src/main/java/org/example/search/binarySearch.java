@@ -9,6 +9,11 @@ public class binarySearch {
         int[] nums = {1,2,3,4,5};
         int i = left_bound(nums, 3);
         System.out.println(i);
+        try {
+            Thread.sleep(1000*60*60);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static int binarySearch(int[] nums, int target) {

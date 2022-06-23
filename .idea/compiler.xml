@@ -2,20 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sc-gateway" />
+        <module name="customer-service" />
+        <module name="generate-code" />
+        <module name="web-dubbo" />
         <module name="spring" />
         <module name="zuul-server" />
         <module name="spring-cloud-eureka-example" />
-        <module name="sc-gateway" />
         <module name="db2" />
         <module name="rest-dubbo" />
-        <module name="customer-service" />
+        <module name="socket" />
         <module name="db" />
         <module name="dubbo-api" />
-        <module name="web-dubbo" />
+        <module name="algorithm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +32,8 @@
       <module name="db2" options="-parameters" />
       <module name="dubbo" options="" />
       <module name="dubbo-api" options="" />
+      <module name="generate-code" options="-parameters" />
+      <module name="socket" options="-parameters" />
       <module name="spring" options="-parameters" />
       <module name="web-dubbo" options="" />
     </option>

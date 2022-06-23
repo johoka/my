@@ -17,6 +17,7 @@
     <module>spring-cloud-zuul-example-aggregator</module>
       <module>algorithm</module>
       <module>socket</module>
+    <module>generate-code</module>
   </modules>
 
   <name>my</name>

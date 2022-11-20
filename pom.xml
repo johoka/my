@@ -21,6 +21,7 @@
       <module>generate-code</module>
       <module>concurrency</module>
       <module>garbage-collector</module>
+    <module>serialization</module>
   </modules>
 
   <name>my</name>
